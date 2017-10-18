@@ -20,6 +20,10 @@ Or from the Apache Guacamole Desktop, right click mouse, select Terminal Emulato
 
 ## To change Web Desktop screen resolution:
 
+type `xrandr` in a Web Desktop terminal to see available resolutions.
+
+an example for 1080HD screen size:
+
 ```
 xrandr -s 1920x1200
 ```
