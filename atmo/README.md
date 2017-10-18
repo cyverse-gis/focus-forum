@@ -42,7 +42,7 @@ cd bighorns/atmo
 to install GRASS natively (without Singularity container) 
 
 ```
-. build_grass_quick.sh
+. build_grass.sh
 ```
 
 ## Install QGIS
