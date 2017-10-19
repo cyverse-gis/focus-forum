@@ -36,20 +36,23 @@ xrandr -s 1920x1200
 
 # Github
 
-The next step is to `git` and `clone` this repository to your VM from this Github page
+Change into a directory you're comfortable installing into and have `sudo` privileges.
+
+The next step is to `git clone` this repository onto your VM:
 
 ```
-#clone the private repository - you will be prompted for your password
 git clone https://github.com/cyverse-gis/focus-forum.git
 ```
+
+change directory to the new repo with these installation scripts:
+
 ```
-# change directory
 cd focus-forum/atmo
 ```
 
 ## install R and RStudio-Server
 
-We are going to install RStudio-Server, which is basically the same as RStudio, but it runs through your browser.
+We are going to install RStudio-Server, which is basically the same as RStudio, but it runs through your browser over the `:8787` port.
 
 ```
 . install_rstudio.sh
@@ -58,6 +61,12 @@ We are going to install RStudio-Server, which is basically the same as RStudio, 
 You might be prompted to confirm the installation of some packages, select `Y` `yes` or just hit `return` `enter` to move forward.
 
 Go get a coffee or answer email - this is going to take a while.
+
+Log into the RStudio by opening a new browser window, copy and paste the IP address of the instance from the Atmosphere window.
+
+Add the `:8787` to the IP.
+
+Use your CyVerse username and password to log into the RStudio.
 
 ## Install GRASS
 
