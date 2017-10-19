@@ -31,7 +31,7 @@ type `xrandr` in a Web Desktop terminal to see available resolutions.
 an example for 1080HD screen size:
 
 ```
-xrandr -s 1920x1200
+xrandr -s 1920x1080
 ```
 
 # Github
