@@ -3,9 +3,11 @@
 # Created by: https://github.com/Robinlovelace/install-gis-ubuntu
 # Modified for CyVerse Atmosphere by Tyson Swetnam
 
+# Ubuntu 16.04 installation
+
 # install R/RStudio - see
 # http://stackoverflow.com/questions/29667330
-echo "install a few dependancies for our workflow"
+echo "install a few dependancies"
 sudo apt-get update -y
 sudo apt-get upgrade -y
 sudo apt-get install libgstreamer0.10-0 -y
@@ -31,6 +33,7 @@ sudo apt-get install libv8-dev -y
 
 echo "edit the sources file to prepare to install R"
 # see http://cran.r-project.org/bin/linux/ubuntu/README
+
 sudo sh -c 'echo "deb http://cran.rstudio.com/bin/linux/ubuntu xenial/" >> /etc/apt/sources.list' 
 
 echo "get keys to install R"
@@ -49,7 +52,7 @@ echo "install RStudio-Server from the web"
 sudo apt-get install -f -y
 sudo apt-get install -y gdebi-core
 wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb
-sudo gdebi rstudio-server-1.1.383-amd64.deb
+sudo gdebi --non-interactive rstudio-server-1.1.383-amd64.deb
 
 echo "start R and install commonly used packages"
 # http://stackoverflow.com/q/4090169/1036500
@@ -62,7 +65,7 @@ packages <- c('devtools', # for easy package development and installation from g
               'tidyverse' # stack of packages from Hadley Wickham and friends
               )
 install.packages(packages)
-# some from github
+# from github
 devtools::install_github(c('rstudio/leaflet'))
 geopkgs = c(
   'sp',       # spatial data classes and functions
