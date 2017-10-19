@@ -9,7 +9,6 @@
 # http://stackoverflow.com/questions/29667330
 echo "install a few dependancies"
 sudo apt-get update -y
-sudo apt-get upgrade -y
 sudo apt-get install libgstreamer0.10-0 -y
 sudo apt-get install libgstreamer-plugins-base0.10-dev -y
 sudo apt-get install libcurl4-openssl-dev -y
@@ -30,6 +29,7 @@ sudo apt-get install jags -y
 sudo apt-get install imagemagick -y
 sudo apt-get install docker-engine -y
 sudo apt-get install libv8-dev -y
+sudo apt-get install gdebi-core -y
 
 echo "edit the sources file to prepare to install R"
 # see http://cran.r-project.org/bin/linux/ubuntu/README
@@ -50,7 +50,6 @@ sudo R CMD javareconf # for rJava
 echo "install RStudio-Server from the web"
 
 sudo apt-get install -f -y
-sudo apt-get install -y gdebi-core
 wget https://download2.rstudio.org/rstudio-server-1.1.383-amd64.deb
 sudo gdebi --non-interactive rstudio-server-1.1.383-amd64.deb
 
