@@ -50,9 +50,38 @@ change directory to the new repo with these installation scripts:
 cd focus-forum/atmo
 ```
 
+
+# Setting up CyVerse Data Store and iRods iCommands 
+
+[Instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
+
+```
+$ iinit
+```
+You will be queried to set up your `irods_environment.json`
+
+Enter the following:
+
+|statement  |input  |  
+|-----------|-------|
+| DNS | *data.iplantcollaborative.org* |
+|port number|*1247*|
+|user name| *your user name*|
+|zone|*iplant*|
+
+Set up auto-complete for iCommands
+[instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
+
+Download [i-commands-auto.bash](https://pods.iplantcollaborative.org/wiki/download/attachments/6720192/i-commands-auto.bash).
+In your home directory, rename i-commands-auto.bash to .i-commands-auto.bash
+In your .bashrc or .bash_profile, enter the following: 
+source .i-commands-auto.bash
+
 ## install R and RStudio-Server
 
-We are going to install RStudio-Server, which is basically the same as RStudio, but it runs through your browser over the `:8787` port.
+We are going to install RStudio-Server using Docker in the demo during the webinar.
+
+If you want to install RStudio-Server natively, you can use the shell file in this repo.
 
 ```
 . install_rstudio.sh
@@ -70,7 +99,9 @@ Use your CyVerse username and password to log into the RStudio.
 
 ## Install GRASS
 
-to install GRASS
+Because the build time for installing GRASS and QGIS are  long, we won't be doing this during the webinar.
+
+To install GRASS natively
 
 ```
 . build_grass.sh
@@ -78,7 +109,7 @@ to install GRASS
 
 ## Install QGIS
 
-to install QGIS 
+to install QGIS natively
 
 ```
 . install_qgis.sh
@@ -86,7 +117,7 @@ to install QGIS
 
 In Apache Guacamole Desktop: Right click mouse, select Applications > Education > QGIS Desktop
 
-# EZ Installation
+# EZ Installation Quick Start Tutorial
 
 We can also install data science software using containers or Python distribution.
 
