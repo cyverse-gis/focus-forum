@@ -1,13 +1,18 @@
+#!/usr/bin/Rscript
+
+```{r}
 library(leaflet)
 library(magrittr) # magrittr uses the %>% to even out the code
 map <- leaflet() %>%
 setView(lng = -110.95, lat = 32.275, zoom = 8) %>%
 addProviderTiles("Stamen.Toner") %>%
- 
-# Add a few different layers.
-# We are going to use a topo map, overlayed with a street map to show states.
-# To browse all the provider layers,
-# see http://leaflet-extras.github.io/leaflet-providers/preview/index.html
+``` 
+
+We are going to use a topo map, overlayed with a street map to show states.
+
+* To browse all the provider layers, see http://leaflet-extras.github.io/leaflet-providers/preview/index.html
+
+```{r}
 addProviderTiles("Esri.WorldImagery", group = "Esri.WorldImagery", options = providerTileOptions(opacity = 0.66, transparent = TRUE)) %>%
 addProviderTiles("OpenStreetMap.Mapnik", group = "OpenStreetMap.Mapnik") %>%
 addProviderTiles("NASAGIBS.ViirsEarthAtNight2012", group = "NASAGIBS.ViirsEarthAtNight2012",options=providerTileOptions(opacity = 0.35, transparent = TRUE)) %>%
@@ -16,3 +21,4 @@ addProviderTiles("NASAGIBS.ViirsEarthAtNight2012", group = "NASAGIBS.ViirsEarthA
 #layers control panel
 addLayersControl(baseGroups = c("Esri.WorldImagery", "OpenStreetMap.Mapnik", "NASAGIBS.ViirsEarthAtNight2012"), options = layersControlOptions(collapsed = FALSE))
 map
+```
