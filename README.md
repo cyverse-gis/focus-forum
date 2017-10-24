@@ -8,15 +8,3 @@ Example scripts used for Tyson L. Swetnam's Cyverse Focus Forum.
 ### /atmo
 
 contains scripts for installation of common OSGEO GIS software
-
-### /pdal
-
-Example scripts for Docker
-
-### /jupyter
-
-Example Notebooks
-
-### /rstudio
-
-Example Notebooks
