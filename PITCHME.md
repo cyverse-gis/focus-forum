@@ -373,6 +373,11 @@ Next week's webinar - [Getting Started with CyVerse](http://www.cyverse.org/blog
 #### [To Infinity, and Beyond!](https://agaveapi.co/platform/)
 <img src="https://agaveapi.co/wp-content/uploads/2016/02/Agave-white-logo-platform.png" height="200">
 
++++
+
+<img src="https://www.sciapps.org/sciapps.gif" height=500">
+[Agave Science Apps](https://www.sciapps.org/)                                            
+                                                          
 ---
 
 ## Containers
