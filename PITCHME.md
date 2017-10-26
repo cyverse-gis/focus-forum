@@ -376,7 +376,8 @@ Next week's webinar - [Getting Started with CyVerse](http://www.cyverse.org/blog
 +++
 
 <img src="https://www.sciapps.org/sciapps.gif" height="500">
-[Agave Science Apps](https://www.sciapps.org/)                                            
+
+[Agave Science API](https://www.sciapps.org/)                                            
                                                           
 ---
 
