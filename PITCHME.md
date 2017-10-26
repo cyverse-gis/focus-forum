@@ -641,7 +641,7 @@ How do I scale my research to use hundreds to thousands of computers?
 
 ---
 
-<img src="assets/imagery/cyverse_logo_150px.png" width="250">
+<img src="assets/imagery/cyverse_logo_150px.png" width="150">
 
 ### CyVerse is supported by the National Science Foundation under Grants No. DBI-0735191 and DBI-1265383.
 
