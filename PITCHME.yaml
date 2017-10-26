@@ -1,0 +1,5 @@
+logo: assets/imagery/cyverse_icon_white_tm.png
+# background: assets/imagery/merged.png
+background-size: cover
+theme: moon
+transition: fade
