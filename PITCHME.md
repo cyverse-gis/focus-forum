@@ -633,13 +633,15 @@ How do I scale my research to use hundreds to thousands of computers?
 
 ---
 
-#### Where do I get started, if I don't know where to start?
+## Where to get started, if you don't know where to start?
 
 [The Carpentries](https://software-carpentry.org/)
 
+[http://learning.cyverse.org/](http://learning.cyverse.org/)
+
 ---
 
-<img src="assets/imagery/cyverse_logo_150px.png" width="150">
+<img src="assets/imagery/cyverse_logo_150px.png" width="250">
 
 ### CyVerse is supported by the National Science Foundation under Grants No. DBI-0735191 and DBI-1265383.
 
