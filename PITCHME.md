@@ -647,4 +647,4 @@ How do I scale my research to use hundreds to thousands of computers?
 <img src="assets/imagery/az.png" height="100"> 
 <img src="assets/imagery/tacc.png" height="100"> 
 <img src="assets/imagery/cshl.png" height="100"> 
-<img src="assets/imagery/uncw.png" height="100">
+<img src="assets/imagery/uncw.gif" height="100">
