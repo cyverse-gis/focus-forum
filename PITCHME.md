@@ -261,6 +261,7 @@ $ iput -KPrv ~/home/userid/Documents/rstudio_demo.rmd /iplant/home/userid/data
 
 [Setting up CyberDuck with CyVerse DataStore](https://pods.iplantcollaborative.org/wiki/display/DS/Using+Cyberduck+for+Uploading+and+Downloading+to+the+Data+Store)
 
+---
 
 ## [Atmosphere](https://cyverse.org/atmosphere)
 ![atmo](assets/imagery/Atmosphere_Blue.png)
