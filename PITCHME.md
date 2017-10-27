@@ -140,7 +140,7 @@ CyVerse covers the entire life cycle of the Research Object:
   - Python, R, C++, Matlab, Spark, etc. 
 +++
 
-Popular Data Science Software
+## Popular Data Science Software
 
 +++
 
@@ -164,7 +164,7 @@ Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
 
 +++
 
-### Why the rebrand?
+## Why the rebrand?
 
 +++
 
@@ -268,7 +268,7 @@ $ iput -KPrv ~/home/userid/Documents/rstudio_demo.rmd /iplant/home/userid/data
 
 +++
 
-On demand cloud computing for scientific research
+## On demand cloud computing for scientific research
 
 +++
 
@@ -287,11 +287,11 @@ On demand cloud computing for scientific research
 
 +++
 
-Atmosphere proved to be very popular...
+## Atmosphere proved to be very popular...
 
 +++
 
-... and so NSF built
+## ... and so they built
 
 <img src="assets/imagery/Jetstream_logo_hi_res_cropped.jpg" width="600">
 
@@ -368,7 +368,7 @@ Bring your own tools to the Discovery Environment
 
 +++
 
-#### Coming soon
+## Coming soon
 
 +++
 
@@ -382,11 +382,11 @@ Bring your own tools to the Discovery Environment
 
 +++
 
-Next week's webinar - [Getting Started with CyVerse](http://www.cyverse.org/blog/events/webinar-get-started-cyverse-november-2017)
+## Next week's webinar - [Getting Started with CyVerse](http://www.cyverse.org/blog/events/webinar-get-started-cyverse-november-2017)
 
 ---
 
-#### [To Infinity, and Beyond!](https://agaveapi.co/platform/)
+## [To Infinity, and Beyond!](https://agaveapi.co/platform/)
 <img src="https://agaveapi.co/wp-content/uploads/2016/02/Agave-white-logo-platform.png" height="200">
 
 +++
@@ -417,7 +417,7 @@ Solution: Containerize your software, run anywhere.
 
 +++
 
-Why Containerize?
+## Why Containerize?
 
 - Dependencies can be wicked problems <!-- .element: class="fragment" -->
 - Compiling software is slow <!-- .element: class="fragment" -->
@@ -442,7 +442,7 @@ Why Containerize?
 
 +++
 
-#### Want to learn more about Scientific Research with containers?
+## Want to learn more about Scientific Research with containers?
 
 _Advanced Workshop hosted by CyVerse_
 
@@ -499,7 +499,7 @@ Which GIS platform is best for CyVerse?
 
 ---
 
-### using Licensed software with CyVerse
+## using Licensed software with CyVerse
 
 +++
 
@@ -530,7 +530,7 @@ ArcGIS is the most widely used GIS software in the USA, ~40% of all users.
 
 +++
 
-Create a new instance in Atmosphere / Jetstream
+- Create a new instance in Atmosphere / Jetstream
 
 - If you are planning to "image" the instance, select the smallest functional size.
 
@@ -540,7 +540,7 @@ Create a new instance in Atmosphere / Jetstream
 
 @title[EZ Install]
 
-### <span style="color: #e49436">EZ Install</span>
+## <span style="color: #e49436">EZ Install</span>
 <br>
 
 ```shell
@@ -612,7 +612,7 @@ Done!
 
 ---
 
-<img src="assets/imagery/horizontal_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
+<img src="assets/imagery/vertical_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
 
 +++
 
