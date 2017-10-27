@@ -158,9 +158,17 @@ Popular Data Science Software
 
 +++
 
-Started 2008 as the iPlant Collaborative, renewed by NSF 2013, rebranded 2016
+Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
 
 <img src="https://www2.cs.arizona.edu/news/articles/images/200801-iplant.jpg" height="100"> <img src="http://blog.illumina.com/img/iplant.jpg" height="100"> <img src="http://www.cyverse.org/sites/default/files/cyverse_rgb.png" height="100">
+
++++
+
+Why the rebrand?
+
++++
+
+Other research discplines recognized the utility of the collaborative platform and begin to using it in earnest. 
 
 +++
 
@@ -172,9 +180,9 @@ Started 2008 as the iPlant Collaborative, renewed by NSF 2013, rebranded 2016
 
 +++
 
-CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_people & research_</span>  <!-- .element: class="fragment" -->
+##### CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_people & research_</span>  <!-- .element: class="fragment" -->
 
-CyVerse' existance depends on users innovating within an ecosystem of interoperability  <!-- .element: class="fragment" -->
+##### CyVerse' success depends on users innovating within an ecosystem of interoperability  <!-- .element: class="fragment" -->
 
 +++
 
@@ -184,9 +192,7 @@ CyVerse' existance depends on users innovating within an ecosystem of interopera
 
 +++
 
-When scientists start using CyVerse <span style="font-weight: bold; color: #3685E3">we</span> work together to:
-
-Develop your tools, workflows, and datasets
+##### When scientists begin using CyVerse <span style="font-weight: bold; color: #3685E3">we</span> work together to develop your tools, workflows, and datasets
 
 <img src="http://insidethegem.com/wp-content/uploads/organic-logo.png" height="150"> <img src="http://cstaab.com/wp-content/uploads/cpp_java_python.png" height="150"> <img src="https://pbs.twimg.com/profile_images/662507863516905472/7piKPHHv_400x400.jpg" height="150"> 
 
@@ -224,8 +230,28 @@ CyVerse *is* a place you can bring large quantities of data and do an analysis, 
 - CyVerse uses a system called [iRODS](https://irods.org/)
   - Multi-threaded file transfer 
 - GUI via the [Discovery Environment](https://de.cyverse.org)
+- 3rd party applications, i.e. CyberDuck
 - Mountable as a local file directory via FUSE
-- Extendable API for developers via *[Agave](http://www.cyverse.org/science-apis)*
+- For developers the *[Agave aPI](http://www.cyverse.org/science-apis)*
+
++++
+
+<span style="color: #e49436">using iCommands</span>
+<br>
+
+```shell
+$ iinit
+$ ils
+$ imkdir
+$ iget -KPbrv /iplant/home/userid/data/ ~/home/userid/Downloads/
+$ iput -KPrv ~/home/userid/Documents/rstudio_demo.rmd /iplant/home/userid/data
+```
+
+@[1](initiate the connection to an iRODS account)
+@[2]([iCommands](https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands) uses standard Linux commands, e.g. `ls` is `ils`)
+@[3](Create a folder on the DataStore)
+@[4](`get` files from the DataStore. Flags `-` with `K` ensures data are not corrupted, `P` provide feedback, `b` bulk transfer, `v` verbose, `r` recursive through entire folder )
+@[5](`put` files onto the DataStore.)
 
 +++
 
@@ -235,44 +261,27 @@ CyVerse *is* a place you can bring large quantities of data and do an analysis, 
 
 [Setting up CyberDuck with CyVerse DataStore](https://pods.iplantcollaborative.org/wiki/display/DS/Using+Cyberduck+for+Uploading+and+Downloading+to+the+Data+Store)
 
-+++
-
-<span style="color: #e49436">using iCommands</span>
-<br>
-
-```shell
-$ ils
-$ imkdir
-$ iinit
-$ iget -KPbrv /iplant/home/tyson_swetnam/rstudio_data/ ~/home/$USER/Downloads/
-$ iput -KPrv ~/home/$USER/Documents/rstudio_demo.rmd /iplant/home/tyson_swetnam/data
-```
-
-@[1]([iCommands](https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands) uses standard Linux commands, e.g. `ls` is `ils`)
-@[2](Create a folder on the DataStore)
-@[3](initiate the connection to an iRODS account)
-@[4](`get` files from the DataStore. Flags `-` with `K` ensures data are not corrupted, `P` provide feedback, `b` bulk transfer, `v` verbose, `r` recursive through entire folder )
-@[5](`put` files onto the DataStore.)
-
----
 
 ## [Atmosphere](https://cyverse.org/atmosphere)
 ![atmo](assets/imagery/Atmosphere_Blue.png)
 
 +++
 
+On demand cloud computing for scientific research
+
++++
+
 - Linux environment (Centos, Ubuntu)
-- On demand
 - Collaborate together online
 - Publically host custom images
 
 +++
 
-- Multiple 'flavors' of instance size
+- Multiple instance sizes and 'flavors'
   - 1 CPU, 4GB RAM, 30GB Disk
-  ...
+  up to 
   - 16 CPU, 128GB RAM, 1400GB Disk
-- Attach (and detach) additional TB size volumes to an instance   
+- Attach (and swap) external storage volumes    
 - emulated web shell and desktop via [Apache _Guacamole_](https://guacamole.incubator.apache.org/)  
 
 +++
@@ -281,7 +290,7 @@ Atmosphere proved to be very popular...
 
 +++
 
-...so we built
+... and so NSF built
 
 <img src="assets/imagery/Jetstream_logo_hi_res_cropped.jpg" width="600">
 
@@ -289,10 +298,8 @@ Atmosphere proved to be very popular...
 
 +++
 
-- co-located at Texas Advanced Computing Center (TACC) and Indiana University (IU)
-- launch dozens of instances 
-- sizes from 1 core 2GB RAM, up to 44 CPU, 120GB RAM
-- Request necessary storage size
+- a research scale cloud running Atmosphere
+- instance sizes from 1 core 2GB RAM, up to 44 CPU, 120GB RAM
 
 ---
 
