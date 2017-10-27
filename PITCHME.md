@@ -519,24 +519,50 @@ ArcGIS is the most widely used GIS software in the USA, ~40% of all users.
 
 +++
 
-#### Building the best Virtual Machine for your research
+## Building the best Virtual Machine for your research
 
 <img src="https://consequenceofsound.files.wordpress.com/2016/04/screen-shot-2016-04-08-at-10-33-51-am.png" width="500">
 
 +++
 
-#### Setting up Atmosphere instances as Data Science Workbenches
+## Setting up Atmosphere instances as Data Science Workbenches
 
 +++
 
-Create a new instance
+Create a new instance in Atmosphere / Jetstream
 
-If you are planning to "image" the instance, select the smallest functional size.
+- If you are planning to "image" the instance, select the smallest functional size.
 
-Install new software into `/opt` `/srv`
+  - Install new software into `/opt` `/srv`
 
 +++
 
+@title[Docker RStudio]
+
+### <span style="color: #e49436">Docker + RStudio</span>
+<br>
+
+```shell
+$ ezd
+$ sudo usermod -aG docker $USER
+$ exit
+$ docker pull rocker/geospatial
+$ docker run -d -p 8787:8787 rocker/geospatial
+
+Done!
+
+```
+
+@[1](install Docker)
+@[2](change `sudo` privileges)
+@[3](exit and restart terminal window)
+@[4](pull the Rocker/Geospatial Rstudio-Server from DockerHub)
+@[5](Run the Container in detached mode `-d` on port `-p 8787:8787`)
+@[7](Open the Instance's IP address w/ port number in a new browser window)
+
++++
+
+![Video](https://www.youtube.com/embed/8LSZqWpLbok) 
 @title[EZ Install]
 
 ### <span style="color: #e49436">EZ Install</span>
@@ -598,35 +624,6 @@ Done!
 ---
 
 <img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" width="500">
-
-+++
-
-@title[Docker RStudio]
-
-### <span style="color: #e49436">Docker + RStudio</span>
-<br>
-
-```shell
-$ ezd
-$ sudo usermod -aG docker $USER
-$ exit
-$ docker pull rocker/geospatial
-$ docker run -d -p 8787:8787 rocker/geospatial
-
-Done!
-
-```
-
-@[1](install Docker)
-@[2](change `sudo` privileges)
-@[3](exit and restart terminal window)
-@[4](pull the Rocker/Geospatial Rstudio-Server from DockerHub)
-@[5](Run the Container in detached mode `-d` on port `-p 8787:8787`)
-@[7](Open the Instance's IP address w/ port number in a new browser window)
-
-+++
-
-![Video](https://www.youtube.com/embed/8LSZqWpLbok)
 
 ---
 
