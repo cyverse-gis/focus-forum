@@ -341,7 +341,7 @@ Bring your own tools to the Discovery Environment
 
 <img src="https://f1000researchdata.s3.amazonaws.com/manuscripts/9614/e8fc9784-bed0-46bd-abc4-e070165a0c78_figure2.gif" height="400">
 
-[Devisetty et al. 2016](https://f1000research.com/articles/5-1442/v1) <img src="assets/imagery/horizontal_large.png" width="200">
+[Devisetty et al. 2016](https://f1000research.com/articles/5-1442/v1)
 
 ---
 
@@ -557,6 +557,10 @@ $ ezj -R -3
 
 +++
 
+<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" width="500">
+
++++
+
 @title[Docker RStudio]
 
 ### <span style="color: #e49436">Docker + RStudio</span>
@@ -586,6 +590,10 @@ Done!
 
 ---
 
+<img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png" height="200"><img src="http://blog.thedataincubator.com/wp-content/uploads/2017/01/jupyter-logo-300x298.png" height="200">
+
++++
+
 @title[Anaconda]
 
 ### <span style="color: #e49436">Anaconda and Jupyter Notebook</span>
@@ -603,6 +611,10 @@ Done!
 @[4](Open Jupyter via provided URL w/ token)
 
 ---
+
+<img src="assets/imagery/horizontal_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
+
++++
 
 @title[ArcGIS Jupyter Notebook with Docker]
 
@@ -627,18 +639,14 @@ Done!
 
 ---
 
-<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" width="500">
-
----
-
-#### What about other file storage services?
+#### What about other file systems?
 
 +++
 
 * Google Drive FUSE Client: [`google-drive-ocamlfuse`](https://github.com/astrada/google-drive-ocamlfuse)
 * Google Drive `Go` Client: [`drive`](https://github.com/odeke-em/drive)
 
-Coming Soon: [Syndicate](https://github.com/syndicate-storage)
+* [Amazon S3 FUSE](https://github.com/s3fs-fuse/s3fs-fuse)
 
 ---
 
