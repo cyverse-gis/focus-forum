@@ -232,7 +232,7 @@ CyVerse *is* a place you can bring large quantities of data and do an analysis, 
 - GUI via the [Discovery Environment](https://de.cyverse.org)
 - 3rd party applications, i.e. CyberDuck
 - Mountable as a local file directory via FUSE
-- For developers the *[Agave aPI](http://www.cyverse.org/science-apis)*
+- For developers the *[Agave API](http://www.cyverse.org/science-apis)*
 
 +++
 
