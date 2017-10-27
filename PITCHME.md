@@ -168,7 +168,7 @@ Why the rebrand?
 
 +++
 
-Other research discplines recognized the utility of the collaborative platform and begin to using it in earnest. 
+Numerous research disciplines recognized the utility of the collaborative platform and began to use it in earnest. 
 
 +++
 
