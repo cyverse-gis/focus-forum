@@ -34,6 +34,32 @@ twitter: tswetnam
 
 ---
 
+## Skill levels
+
++++
+
+<span style="font-weight: bold; font-size: 150%; color:#FF0000">New users</span>
+
+- Interest in Graphic User Interfaces (GUI) & Integrated Development Environment (IDE) tools <!-- .element: class="fragment" -->
+  
+  - Maybe just learning spatial analyses for the first time <!-- .element: class="fragment" -->
+
++++
+
+<span style="font-weight: bold; font-size: 150%; color:#0000A0">Experienced users</span>
+
+- Interest in scaling workflows beyond the laptop / desktop on to HPC and Cloud <!-- .element: class="fragment" -->
+
+- Need to move significant amounts of data around networks <!-- .element: class="fragment" -->
+
++++
+
+<span style="font-weight: bold; font-size: 150%; color:#800080">Power users</span>
+
+- Interest in integrating global and national datasets across HPC environments for massively parallel computing <!-- .element: class="fragment" -->
+
+---
+
 ### What does <span style="font-weight: bold; color: #118224">large-scale</span> really mean in the era of <span style="color: #3685E3">_big data_</span>?
 
 +++
@@ -106,10 +132,12 @@ CyVerse covers the entire life cycle of the Research Object:
 
 +++
 
-A workbench allows you to:
-- Work in your preferred environment, languages, and libraries <!-- .element: class="fragment" -->
-- Write in computational notebooks in Python, R, Spark, etc. <!-- .element: class="fragment" -->
+A data science workbench allows you to:
 
+- Work in your preferred environment, languages, and libraries 
+- Select the tools you want to use
+- Write in a computational notebook  
+  - Python, R, C++, Matlab, Spark, etc. 
 +++
 
 Popular Data Science Software
@@ -127,6 +155,12 @@ Popular Data Science Software
 
 ## What is [CyVerse](http://cyverse.org)? 
 ![cyverse](assets/imagery/cyverse_logo_150px.png)
+
++++
+
+Started 2008 as the iPlant Collaborative, renewed by NSF 2013, rebranded 2016
+
+<img src="https://www2.cs.arizona.edu/news/articles/images/200801-iplant.jpg" height="150"> <img src="http://blog.illumina.com/img/iplant.jpg" height="150"> (img src="http://www.cyverse.org/sites/default/files/cyverse_rgb.png" height="150">
 
 +++
 
@@ -155,32 +189,6 @@ When scientists start using CyVerse <span style="font-weight: bold; color: #3685
 Develop your tools, workflows, and datasets
 
 <img src="http://insidethegem.com/wp-content/uploads/organic-logo.png" height="150"> <img src="http://cstaab.com/wp-content/uploads/cpp_java_python.png" height="150"> <img src="https://pbs.twimg.com/profile_images/662507863516905472/7piKPHHv_400x400.jpg" height="150"> 
-
-+++
-
-In this talk I'll cover a few skill levels
-
-+++
-
-<span style="font-weight: bold; font-size: 150%; color:#FF0000">New users</span>
-
-- Interest in Graphic User Interfaces (GUI) & Integrated Development Environment (IDE) tools <!-- .element: class="fragment" -->
-  
-  - Maybe just learning spatial analyses for the first time <!-- .element: class="fragment" -->
-
-+++
-
-<span style="font-weight: bold; font-size: 150%; color:#0000A0">Experienced users</span>
-
-- Interest in scaling workflows beyond the laptop / desktop on to HPC and Cloud <!-- .element: class="fragment" -->
-
-- Need to move significant amounts of data around networks <!-- .element: class="fragment" -->
-
-+++
-
-<span style="font-weight: bold; font-size: 150%; color:#800080">Power users</span>
-
-- Interest in integrating global and national datasets across HPC environments for massively parallel computing <!-- .element: class="fragment" -->
 
 ---
 
