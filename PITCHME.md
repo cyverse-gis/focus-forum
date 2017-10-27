@@ -132,7 +132,7 @@ CyVerse covers the entire life cycle of the Research Object:
 
 +++
 
-A data science workbench allows you to:
+### A data science workbench allows: 
 
 - Work in your preferred environment, languages, and libraries 
 - Select the tools you want to use
