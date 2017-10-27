@@ -22,15 +22,15 @@ twitter: tswetnam
 ### Our Roadmap
 
 
-<span style="font-family: courier; color:#ffffff">Emergence of Data Science & The Research Object </span> <!-- .element: class="fragment" -->
+<span style="color:#ffffff">Emergence of Data Science & The Research Object </span> <!-- .element: class="fragment" -->
 
-<span style="font-family: courier; color:#ffffff">Data Scientist Workbench examples </span> <!-- .element: class="fragment" -->
+<span style="color:#ffffff">Data Scientist Workbench examples </span> <!-- .element: class="fragment" -->
 
-<span style="font-family: courier; color:#ffffff">Intro to CyVerse</span> <!-- .element: class="fragment" -->
+<span style="color:#ffffff">Intro to CyVerse</span> <!-- .element: class="fragment" -->
 
-<span style="font-family: courier; color:#ffffff">Containers & why you need them </span> <!-- .element: class="fragment" -->
+<span style="color:#ffffff">Containers & why you need them </span> <!-- .element: class="fragment" -->
 
-<span style="font-family: courier; color:#ffffff">GIS in cloud and on HPC: Live Demo!!! _*DANGER ZONE*_ </span> <!-- .element: class="fragment" -->
+<span style="color:#ffffff">GIS in cloud and on HPC: Live Demo!!! _*DANGER ZONE*_ </span> <!-- .element: class="fragment" -->
 
 ---
 
@@ -164,7 +164,7 @@ Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
 
 +++
 
-Why the rebrand?
+### Why the rebrand?
 
 +++
 
