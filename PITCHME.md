@@ -538,6 +538,25 @@ Create a new instance in Atmosphere / Jetstream
 
 +++
 
+@title[EZ Install]
+
+### <span style="color: #e49436">EZ Install</span>
+<br>
+
+```shell
+$ ez
+$ ezd
+$ ezs
+$ ezj -R -3
+```
+
+@[1](View option menu for `ez`)
+@[2](Install latest version of Docker)
+@[3](Install latest version of Singularity)
+@[4](Install Anaconda and Jupyter Notebooks w/ Python3 and the R Kernel)
+
++++
+
 @title[Docker RStudio]
 
 ### <span style="color: #e49436">Docker + RStudio</span>
@@ -564,22 +583,6 @@ Done!
 +++
 
 ![Video](https://www.youtube.com/embed/8LSZqWpLbok) 
-@title[EZ Install]
-
-### <span style="color: #e49436">EZ Install</span>
-<br>
-
-```shell
-$ ez
-$ ezd
-$ ezs
-$ ezj -R -3
-```
-
-@[1](View option menu for `ez`)
-@[2](Install latest version of Docker)
-@[3](Install latest version of Singularity)
-@[4](Install Anaconda and Jupyter Notebooks w/ Python3 and the R Kernel)
 
 ---
 
