@@ -160,7 +160,7 @@ Popular Data Science Software
 
 Started 2008 as the iPlant Collaborative, renewed by NSF 2013, rebranded 2016
 
-<img src="https://www2.cs.arizona.edu/news/articles/images/200801-iplant.jpg" height="150"> <img src="http://blog.illumina.com/img/iplant.jpg" height="150"> <img src="http://www.cyverse.org/sites/default/files/cyverse_rgb.png" height="150">
+<img src="https://www2.cs.arizona.edu/news/articles/images/200801-iplant.jpg" height="100"> <img src="http://blog.illumina.com/img/iplant.jpg" height="100"> <img src="http://www.cyverse.org/sites/default/files/cyverse_rgb.png" height="100">
 
 +++
 
