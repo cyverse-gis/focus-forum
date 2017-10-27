@@ -180,9 +180,9 @@ Numerous research disciplines recognized the utility of the collaborative platfo
 
 +++
 
-##### CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_people & research_</span>  <!-- .element: class="fragment" -->
+### CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_people & research_</span>  <!-- .element: class="fragment" -->
 
-##### CyVerse' success depends on users innovating within an ecosystem of interoperability  <!-- .element: class="fragment" -->
+### CyVerse' success depends on users innovating within an ecosystem of interoperability  <!-- .element: class="fragment" -->
 
 +++
 
