@@ -192,7 +192,7 @@ Numerous research disciplines recognized the utility of the collaborative platfo
 
 +++
 
-##### When scientists begin using CyVerse <span style="font-weight: bold; color: #3685E3">we</span> work together to develop your tools, workflows, and datasets
+### When scientists begin using CyVerse <span style="font-weight: bold; color: #3685E3">we</span> work together to develop your tools, workflows, and datasets
 
 <img src="http://insidethegem.com/wp-content/uploads/organic-logo.png" height="150"> <img src="http://cstaab.com/wp-content/uploads/cpp_java_python.png" height="150"> <img src="https://pbs.twimg.com/profile_images/662507863516905472/7piKPHHv_400x400.jpg" height="150"> 
 
