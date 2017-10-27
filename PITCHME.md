@@ -255,7 +255,7 @@ $ iput -KPrv ~/home/userid/Documents/rstudio_demo.rmd /iplant/home/userid/data
 
 +++
 
-### [CyberDuck](https://cyberduck.io/)
+## [CyberDuck](https://cyberduck.io/)
 
 <img src="https://cdn.cyberduck.io/img/cyberduck-icon-384.png" height="250">
 
@@ -563,7 +563,7 @@ $ ezj -R -3
 
 @title[Docker RStudio]
 
-### <span style="color: #e49436">Docker + RStudio</span>
+## <span style="color: #e49436">Docker + RStudio</span>
 <br>
 
 ```shell
@@ -596,7 +596,7 @@ Done!
 
 @title[Anaconda]
 
-### <span style="color: #e49436">Anaconda and Jupyter Notebook</span>
+## <span style="color: #e49436">Anaconda and Jupyter Notebook</span>
 <br>
 
 ```shell
@@ -618,7 +618,7 @@ Done!
 
 @title[ArcGIS Jupyter Notebook with Docker]
 
-### <span style="color: #e49436">Docker + Jupyter + ArcPy</span>
+## <span style="color: #e49436">Docker + Jupyter + ArcPy</span>
 <br>
 
 ```shell
@@ -639,7 +639,7 @@ Done!
 
 ---
 
-#### What about other file systems?
+## What about other file systems?
 
 +++
 
