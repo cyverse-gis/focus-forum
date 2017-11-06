@@ -3,10 +3,11 @@
 sudo apt-get -y update 
 
 # install build dependency packages:
-sudo apt-get build-dep -y grass
+sudo apt-get build-dep -yy --allow-unauthenticated grass
 
 # Install binary PROJ GEOS & GDAL 
-sudo apt-get install -y --allow-unauthenticated libproj-dev \
+sudo apt-get install -yy --allow-unauthenticated \
+	libproj-dev \
 	proj-data \
 	proj-bin \
 	libgeos-dev \
@@ -15,8 +16,10 @@ sudo apt-get install -y --allow-unauthenticated libproj-dev \
 	gdal-bin
 
 wget -nv --no-check-certificate https://grass.osgeo.org/grass72/source/grass-7.2.2.tar.gz \
-	 && tar xzf grass-7.2.2.tar.gz \
-	 && cd grass-7.2.2 \
+	 && sudo tar xzf grass-7.2.2.tar.gz -C /opt \
+	 && cd /opt/grass-7.2.2 \
+	 
+sudo chown $USER:root /opt/grass-7.2.2 -R
 
 # configure to taste..
 CFLAGS="-O2 -Wall" LDFLAGS="-s" ./configure \
