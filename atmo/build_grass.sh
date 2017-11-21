@@ -15,7 +15,7 @@ sudo apt-get install -yy --allow-unauthenticated \
 	python-gdal \
 	gdal-bin
 
-wget -nv --no-check-certificate https://grass.osgeo.org/grass72/source/grass-7.4-latest.tar.gz \
+wget -nv --no-check-certificate https://grass.osgeo.org/grass74/source/grass-7.4-latest.tar.gz \
 	 && sudo tar xzf grass-7.4-latest.tar.gz -C /opt \
 	 && cd /opt/grass-7.4-latest \
 	 
