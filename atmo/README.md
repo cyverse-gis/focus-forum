@@ -77,6 +77,49 @@ In your home directory, rename i-commands-auto.bash to .i-commands-auto.bash
 In your .bashrc or .bash_profile, enter the following: 
 source .i-commands-auto.bash
 
+## install Jupyter Notebook & Lab
+
+Install Anaconda with Python3 (Featured instances on Atmosphere and Jetstream)
+
+```
+ezj
+```
+
+Change ownership of the Anaconda installation
+```
+sudo chown $USER:iplant-everyone /home/anaconda3 -R
+```
+
+Install [Jupyter Lab](https://github.com/jupyterlab/jupyterlab)
+
+```
+conda install -c conda-forge jupyterlab
+```
+
+Install [additional kernels](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels)
+
+```
+sudo add-apt-repository ppa:chronitis/jupyter
+sudo apt-get update
+sudo apt-get install irkernel ijavascript
+```
+
+On your local host you can `ssh` tunnel to an Atmosphere or Jetstream VM running Jupyter:
+
+```
+ssh -nNT -L 8888:localhost:8888 $USER@$IP_ADDRESS
+```
+
+#### Install [Google Drive to Jupyter Lab](https://github.com/jupyterlab/jupyterlab-google-drive)
+
+Requires [Node.js 5+](https://www.digitalocean.com/community/tutorials/how-to-install-node-js-on-ubuntu-16-04)
+
+Google Drive requires port 8888 or 8889 with port forwarding to work
+
+```
+jupyter labextension install @jupyterlab/google-drive
+```
+
 ## install R and RStudio-Server
 
 We are going to install RStudio-Server using Docker in the demo during the webinar.
