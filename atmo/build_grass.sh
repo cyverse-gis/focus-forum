@@ -15,11 +15,11 @@ sudo apt-get install -yy --allow-unauthenticated \
 	python-gdal \
 	gdal-bin
 
-wget -nv --no-check-certificate https://grass.osgeo.org/grass74/source/grass-7.4.0RC1.tar.gz \
-	 && sudo tar xzf grass-7.4.0RC1.tar.gz -C /opt \
-	 && cd /opt/grass-7.4.0RC1 \
+wget -nv --no-check-certificate https://grass.osgeo.org/grass72/source/grass-7.2.2.tar.gz \
+	 && sudo tar xzf grass-7.2.2.tar.gz -C /opt \
+	 && cd /opt/grass-7.2.2 \
 	 
-sudo chown $USER:root /opt/grass-7.4.0RC1 -R
+sudo chown $USER:root /opt/grass-7.2.2 -R
 
 # configure to taste..
 CFLAGS="-O2 -Wall" LDFLAGS="-s" ./configure \
