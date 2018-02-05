@@ -53,7 +53,18 @@ cd focus-forum/atmo
 
 # Setting up CyVerse Data Store and iRods iCommands 
 
-[Instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
+[CyVerse Instructions](https://pods.iplantcollaborative.org/wiki/display/DS/Setting+Up+iCommands)
+
+[Instructions from iRODS](https://packages.irods.org/)
+[Download from iRODS](https://irods.org/download/)
+
+```
+wget -qO - https://packages.irods.org/irods-signing-key.asc | sudo apt-key add -
+echo "deb [arch=amd64] https://packages.irods.org/apt/ $(lsb_release -sc) main" | sudo tee /etc/apt/sources.list.d/renci-irods.list
+sudo apt-get update
+
+sudo apt-get install irods-icommands
+```
 
 ```
 $ iinit
