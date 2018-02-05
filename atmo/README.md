@@ -75,7 +75,7 @@ Enter the following:
 
 |statement  |input  |  
 |-----------|-------|
-| DNS | *data.iplantcollaborative.org* |
+| DNS | *data.cyverse.org* |
 |port number|*1247*|
 |user name| *your user name*|
 |zone|*iplant*|
