@@ -41,5 +41,5 @@ echo "GRASS_GUI: text" >> $GRASSRC
 # Create a mapset
 grass74 -c epsg:3857 ${PWD}/mytmp -e
 
-# Run GRASS72
+# Run GRASS74
 grass74 ${PWD}/mytmp/PERMANENT
