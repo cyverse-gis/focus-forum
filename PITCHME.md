@@ -1,4 +1,5 @@
----?image=assets/imagery/merged.png&size=cover
+---
+
 <span style="font-weight: bold; font-size: 150%; color:#FFFF00">Going Places with Your Container</span>
 
 +++
