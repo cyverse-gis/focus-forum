@@ -29,17 +29,13 @@ twitter: tswetnam
 
 ---
 
-## Two weeks ago: [Make your live and analyses easier with Containers](https://github.com/julianpistorius/presentation-containers-intro)
+## Two weeks ago: [Make your life and analyses easier with Containers](https://github.com/julianpistorius/presentation-containers-intro)
 
 ### Presented by Julian Pistorius
 
 +++
 
 What Julian Talked about
-
----
-
-## Building your own Containers 
 
 +++
 
@@ -51,8 +47,8 @@ What Julian Talked about
 
 ### A data science environment allows you to: 
 
-- Work in our favored environment, languages, and libraries 
-- Tools you want to use
+- Work in a favored environment & language 
+- Tools and libraries you like to use
 - Computational notebooks 
   - Python, R, C++, Matlab, Spark, etc. 
   
