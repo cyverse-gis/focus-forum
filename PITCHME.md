@@ -64,7 +64,7 @@ What Julian Talked about
 
 *different OS + third party software + updates/upgrades + redeployment* = <span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
  
-<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" width="400"> <!-- .element: class="fragment" -->
+<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" width="400"> <!-- .element: class="fragment" --> <img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" width="350"> <!-- .element: class="fragment" -->
 
 +++
 
@@ -96,11 +96,68 @@ What Julian Talked about
 
 +++
 
-# Docker
+# DOCKER
+
+<img src="assets/imagery/vertical_large.png" height="200">
 
 +++
 
-## Writing a Dockerfile
+## Which container is right for you?
+
+- <span style="font-weight: bold; font-size: 80%; color:#FF0000">_*Easiest*_ Find one that already exists -> https://hub.docker.com/<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#FF0000">_*Easy*_ Modify an existing container<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#FF0000">_*Hard*_ Create your own from scratch<!-- .element: class="fragment" --> 
+  
++++
+
+## <span style="color: #e49436">Writing a Dockerfile</span>
+<br>
+
+```shell
+FROM ubuntu:18.04
+MAINTAINER "Tyson Lee Swetnam" tswetnam@cyverse.org
+RUN apt-get update && apt-get install -y fortune cowsay lolcat
+ENV PATH /usr/games:${PATH}
+ENV LC_ALL=C
+ENTRYPOINT fortune | cowsay | lolcat
+
+```
+
+@[1](FROM a image base, e.g. alpine, centos, debian, ubuntu, I use Ubuntu Bionic Beaver 18.04)
+@[2](Add in who the person was who created the container - not required)
+@[3](RUN a set of scripts, here an update and installation of three programs)
+@[4](Set the environment, adding the three new games to the PATH)
+@[5](Use the default language)
+@[6](the ENTRYPOINT is what will happen when the container is run)
+
++++
+
+@title[DOCKER]
+
+## <span style="color: #e49436">Build your Docker container</span>
+<br>
+
+
+```shell
+$ sudo docker build -t tswetnam/cowsay:latest .
+$ docker run tswetnam/cowsay:latest
+$ docker run -it tswetnam/cowsay:latest bash
+$ docker push tswetnam/cowsay:latest
+
+Done!
+```
+
+@[1](Use `sudo` to build the image with your Singularity file)
+@[2](Run new image)
+@[3](Execute the programs in the container)
+@[4](Start a bash shell inside the container - note: you're inside the container now)
+@[5](Run the programs)
+@[7](Done!)
+
++++
++++
+
+# Singularity
 
 +++
 
@@ -509,17 +566,6 @@ Bring your own tools to the Discovery Environment
 
 +++
 
-## Containers
-
-+++
-
-*different OS + third party software + frequent changes and updates + deployment and reproducibility issues* = 
- 
-<span style="font-weight: bold; font-size: 150%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
-
-<img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" width="350"> <!-- .element: class="fragment" -->
-
-+++
 
 Solution: Containerize your software, run anywhere. 
 
@@ -527,16 +573,6 @@ Solution: Containerize your software, run anywhere.
 
 <img src="assets/imagery/vertical_large.png" height="200">
 
-+++
-
-## Why Containerize?
-
-- Dependencies can be wicked problems <!-- .element: class="fragment" -->
-- Compiling software is slow <!-- .element: class="fragment" -->
-- Reproducability is hard <!-- .element: class="fragment" -->
-- Portability <!-- .element: class="fragment" -->
-
-+++
 
 ## Containers for HPC
 
