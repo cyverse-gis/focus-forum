@@ -37,7 +37,6 @@ twitter: tswetnam
 
 What Julian Talked about
 
-
 ---
 
 ## Building your own Containers 
@@ -91,6 +90,71 @@ What Julian Talked about
 - Reproducability is hard across platforms <!-- .element: class="fragment" -->
 - Portability <!-- .element: class="fragment" --> **& _Scalability_** <!-- .element: class="fragment" -->
 
++++
+
+## What software should you use?
+
++++
+
+# Docker
+
++++
+
+## Writing a Dockerfile
+
++++
+
+## <span style="color: #e49436">Writing a Singularity file</span>
+<br>
+
+```shell
+BootStrap: docker
+From: ubuntu:18.04
+
+%help
+  "This container tells a joke" 
+%post
+  apt-get -y update
+  apt-get -y install fortune cowsay lolcat
+%environment
+  export LC_ALL=C
+  export PATH=/usr/games:$PATH
+%runscript
+  fortune | cowsay | lolcat
+```
+
+@[1](Select an image repository - could be `docker`, `shub`, or `yum`)
+@[2](Image hosted on Docker Hub - Ubuntu Bionic Beaver 18.04)
+@[4](`%help` is a simple help text)
+@[6](`%post` command runs Bash commands like `apt-get` to install dependencies or programs)
+@[9](`%environment` settings, exporting paths for where to look for the commands)
+@[12](`%runscript` execute scripts in the container)
+
++++
+
+@title[Singularity]
+
+## <span style="color: #e49436">Build your Singularity Image</span>
+<br>
+
+```shell
+$ sudo singularity build --writable cowsay.simg Singularity
+$ singularity run cowsay.simg
+$ singularity exec cowsay.simg fortune | cowsay | lolcat
+$ singularity shell cowsay.simg
+$ fortune | cowsay | lolcat
+
+Done!
+```
+
+@[1](Use `sudo` to build the image with your Singularity file)
+@[2](Run new image)
+@[3](Execute the programs in the container)
+@[4](Start a bash shell inside the container - note: you're inside the container now)
+@[5](Run the programs)
+@[7](Done!)
+
++++
 +++
 
 ## Installing Popular Container software on CyVerse Atmosphere
@@ -494,75 +558,16 @@ Solution: Containerize your software, run anywhere.
 
 _Advanced Workshop hosted by CyVerse_
 
-Feb 29 - March 2, 2018 (exact dates TBA)
+Feb 29 - March 2, 2019 (exact dates TBA)
 
 Location: University of Arizona Tucson, AZ
 
 ---
 
-## GIS
-
-+++
-
-The majority of data ([59%](http://www.tandfonline.com/doi/abs/10.1080/13658816.2012.743664)) include a spatial component or are themselves inherently spatial.
-
-+++
-
-Environmental Systems Research Institute (ESRI), est. 1969
-
-<img src="https://upload.wikimedia.org/wikipedia/en/thumb/6/6e/Esri_logo.svg/1280px-Esri_logo.svg.png" width="400"> 
-
-+++
-
-ESRI dominates the US GIS marketplace and is used widely by gov't and in academia.
-
-+++
-
-Geographic Resources Analysis Support System (GRASS), est. 1982 by US Army Corps of Engineers
-
-<img src="http://grassmac.wdfiles.com/local--files/start/startup_banner.png" width="500">
-
-+++
-
-Open Source Geospatial Foundation (OSGEO)
-<img src="http://www.osgeo.org/sites/osgeo.org/files/osgeo_logo.png" height="100">
-
-+++
-
-A large open source GIS community exists and is growing.
-
-+++
-
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/c2/QGIS_logo%2C_2017.svg/2000px-QGIS_logo%2C_2017.svg.png" height="100">
-
-+++
-
-<img src="https://boundlessgeo.com/wp-content/uploads/2015/10/Boundless-logo-512-x-512.png" height="150">
-
-+++
-
-Which GIS platform is best for CyVerse?
-
-@[1](<span style="font-size: 150%; font-weight: bold; color:#3685E3">They are all great & no one platform is going to fit all of your needs </span>)
-
----
 
 ## using Licensed software with CyVerse
 
 +++
-
-ArcGIS is the most widely used GIS software in the USA, ~40% of all users.
-
-+++
-
-[ArcGIS Portal 10.5](http://server.arcgis.com/en/portal/latest/install/linux/welcome-to-the-portal-for-arcgis-installation-guide.htm) runs in Linux
-
-- install on Atmosphere / Jetstream instances using [Chef](https://github.com/Esri/arcgis-cookbook)
- - must use license keys issued via your institution
-- Integrated with [Docker and Project Jupyter](https://hub.docker.com/r/esridocker/arcgis-api-python-notebook/) 
- - run notebooks with ArcPy and the ArcGIS API to do big data applications 
-
---- 
 
 
 
