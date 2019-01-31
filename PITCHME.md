@@ -1,12 +1,10 @@
 ---
 
-<span style="font-weight: bold; font-size: 150%; color:#FFFF00">Going Places with Your Container</span>
+<span style="font-weight: bold; font-size: 150%; color:#FFFF00">Going Places with Your Container(s)</span>
 
-+++
-
-#### February 8, 2019
+February 8, 2019
 #### Tyson Lee Swetnam
-#### CyVerse
+[CyVerse](http://cyverse.org/)
 
 +++
 
@@ -20,14 +18,14 @@ twitter: tswetnam
 
 ---
 
-### Roadmap
+### Today's Roadmap
 
 
-<span style="color:#ffffff"> Review: "Make Your Life (and Analyses) Easier with Containers - J. Pistorius 1/25 " </span> <!-- .element: class="fragment" -->
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">Review: "Make Your Life (and Analyses) Easier with Containers - J. Pistorius 1/25 " </span> <!-- .element: class="fragment" -->
 
-<span style="color:#ffffff">Building your own containers _*DANGER ZONE*_ </span> <!-- .element: class="fragment" -->
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">Building your own containers _*DANGER ZONE*_ </span> <!-- .element: class="fragment" -->
 
-<span style="color:#ffffff">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
 
 ---
 
@@ -73,7 +71,7 @@ What Julian Talked about
 
 **Turing Tarpit** - Alan Perlis, 1982 Epigrams on Programming
 
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">_Beware of the Turing tar-pit in which **everything is possible** but **nothing of interest is easy**_</span> <!-- .element: class="fragment" -->
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">_Beware of the Turing tarpit in which everything is possible but nothing of interest is easy_</span> <!-- .element: class="fragment" -->
 
 <img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400"> <!-- .element: class="fragment" -->
 
@@ -92,6 +90,40 @@ What Julian Talked about
 - Compiling software is sloooowww <!-- .element: class="fragment" -->
 - Reproducability is hard across platforms <!-- .element: class="fragment" -->
 - Portability <!-- .element: class="fragment" --> **& _Scalability_** <!-- .element: class="fragment" -->
+
++++
+
+## Installing Popular Container software on CyVerse Atmosphere
+
++++
+
+@title[EZ Install]
+
+## <span style="color: #e49436">EZ Install</span>
+<br>
+
+```shell
+$ ez
+$ ezd
+$ ezs
+$ ezj -R -3
+$ ezjh
+```
+
+@[1](View option menu for Ansible `ez`)
+@[2](Install latest version of Docker)
+@[3](Install latest version of Singularity)
+@[4](Install Anaconda and Jupyter Notebooks w/ Python3 and the R Kernel)
+@[5](Install Jupyter-Hub with CyVerse CAS)
+
++++
+
+
++++
+
+## Building the "best" containers takes time
+
+<img src="https://consequenceofsound.files.wordpress.com/2016/04/screen-shot-2016-04-08-at-10-33-51-am.png" width="500">
 
 +++
 
@@ -532,15 +564,7 @@ ArcGIS is the most widely used GIS software in the USA, ~40% of all users.
 
 --- 
 
-## Demo
 
-+++
-
-## Building the best Virtual Machine for your research
-
-<img src="https://consequenceofsound.files.wordpress.com/2016/04/screen-shot-2016-04-08-at-10-33-51-am.png" width="500">
-
-+++
 
 ## Setting up Atmosphere instances as Data Science Workbenches
 
@@ -586,8 +610,8 @@ $ ezj -R -3
 $ ezd
 $ sudo usermod -aG docker $USER
 $ exit
-$ docker pull rocker/geospatial
-$ docker run -d -p 8787:8787 rocker/geospatial
+$ docker pull rocker/geospatial:latest
+$ docker run --rm -d -p 8787:8787 rocker/geospatial:latest
 
 Done!
 
