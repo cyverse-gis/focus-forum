@@ -31,9 +31,9 @@ twitter: tswetnam
 
 ---
 
-## Two weeks ago: Make your live and analyses easier with Containers
+## Two weeks ago: [Make your live and analyses easier with Containers](https://github.com/julianpistorius/presentation-containers-intro)
 
-### Julian Pistorius
+### Presented by Julian Pistorius
 
 +++
 
@@ -65,9 +65,7 @@ What Julian Talked about
 
 +++
 
-<span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
-
-*different OS + third party software + updates/upgrades + redeployment* = 
+*different OS + third party software + updates/upgrades + redeployment* = <span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
  
 <img src="https://imgs.xkcd.com/comics/python_environment_2x.png" width="400"> <!-- .element: class="fragment" -->
 
@@ -75,9 +73,9 @@ What Julian Talked about
 
 **Turing Tarpit** - Alan Perlis, 1982 Epigrams on Programming
 
-<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400"> <!-- .element: class="fragment" -->
-
 <span style="font-weight: bold; font-size: 80%; color:#FF0000">_Beware of the Turing tar-pit in which **everything is possible** but **nothing of interest is easy**_</span> <!-- .element: class="fragment" -->
+
+<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400"> <!-- .element: class="fragment" -->
 
 +++
 
