@@ -97,7 +97,7 @@ Alan Perlis, 1982 Epigrams on Programming
 ## What software should you use?
 
 +++
-
+# DOCKER
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2000px-Docker_%28container_engine%29_logo.svg.png" width="800">
 
 +++
@@ -157,10 +157,20 @@ Done!
 
 +++
 
+## Containers for HPC
+
+[Singularity](http://singularity.lbl.gov)
+
+<img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200">
+
 +++
 
-# Singularity
-<img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200">
+- Shares the host environment
+  - See linux host file system
+  - add mounted volumes
+- Your same username and `root` privileges inside container
+  - install your own software on HPC!
+- Build your own images or use an existing Docker container
 
 +++
 
@@ -271,7 +281,7 @@ $ ezjh
 
 - Interest in Graphic User Interfaces (GUI) & Integrated Development Environment (IDE) tools <!-- .element: class="fragment" -->
   
-  - Maybe just learning spatial analyses for the first time <!-- .element: class="fragment" -->
+- Maybe just learning spatial analyses for the first time <!-- .element: class="fragment" -->
 
 +++
 
@@ -419,68 +429,9 @@ Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
 
 ---
 
-### What does CyVerse offer today's data scientist?
+### What does CyVerse offer for you to work with containers?
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Scholars_attending_a_lecture_in_the_Ashmolean_Museum%2C_Oxford_Wellcome_V0006732.jpg" height="600">
-
----
-
-## DataStore 
-![ds](assets/imagery/DataStore_blue.png)
-
-+++
-
-- All new users receive 100 GB 
-- Increase to 10 TB via portal request.
-- \>10 TB available upon written request + executive review.
-
-+++
-
-Despite hosting several petabytes of data storage, CyVerse *is not* a canonical geospatial data repository, e.g. [Earth on AWS S3](https://aws.amazon.com/earth/).
-
-+++
-
-CyVerse *is* a place you can bring large quantities of data and do an analysis, generate more results data, and stage for a brief period (e.g. 6 months to 2 years), before moving those data to canonical or privately hosted repositories.
-
-+++
-
-### Data Store upload/download
-
-+++
-
-- CyVerse uses a system called [iRODS](https://irods.org/)
-  - Multi-threaded file transfer 
-- GUI via the [Discovery Environment](https://de.cyverse.org)
-- 3rd party applications, i.e. CyberDuck
-- Mountable as a local file directory via FUSE
-- For developers the *[Agave API](http://www.cyverse.org/science-apis)*
-
-+++
-
-<span style="color: #e49436">using iCommands</span>
-<br>
-
-```shell
-$ iinit
-$ ils
-$ imkdir
-$ iget -KPbrv /iplant/home/userid/data/ ~/home/userid/Downloads/
-$ iput -KPrv ~/home/userid/Documents/rstudio_demo.rmd /iplant/home/userid/data
-```
-
-@[1](initiate the connection to an iRODS account)
-@[2]([iCommands](https://pods.iplantcollaborative.org/wiki/display/DS/Using+iCommands) uses standard Linux commands, e.g. `ls` is `ils`)
-@[3](Create a folder on the DataStore)
-@[4](`get` files from the DataStore. Flags `-` with `K` ensures data are not corrupted, `P` provide feedback, `b` bulk transfer, `v` verbose, `r` recursive through entire folder )
-@[5](`put` files onto the DataStore.)
-
-+++
-
-## [CyberDuck](https://cyberduck.io/)
-
-<img src="https://cdn.cyberduck.io/img/cyberduck-icon-384.png" height="250">
-
-[Setting up CyberDuck with CyVerse DataStore](https://pods.iplantcollaborative.org/wiki/display/DS/Using+Cyberduck+for+Uploading+and+Downloading+to+the+Data+Store)
 
 ---
 
@@ -518,32 +469,10 @@ $ iput -KPrv ~/home/userid/Documents/rstudio_demo.rmd /iplant/home/userid/data
 
 +++?image=/assets/imagery/Jetstream_topology_diagram-crop.png&size=95%
 
-+++
-
 - a research scale cloud running Atmosphere
 - instance sizes from 1 core 2GB RAM, up to 44 CPU, 120GB RAM
 
----
-
-## [Data Commons](https://dc.cyverse.org)
-<img src="assets/imagery/DataCommons_Blue.png" width="150">
-
 +++
-
-[DOI](https://www.doi.org/) is a Digital Object Identifier 
-
-[ARK](https://en.wikipedia.org/wiki/Archival_Resource_Key) is an Archival Resource Key.
-
-Both identifiers are issued by CyVerse through the California Digital Library's [EZID service](http://ezid.cdlib.org/).
-
-+++
-
-- Publish your notebooks 
-- datasets
- - Recieve a DOI
- - Searchable
-
----
 
 ## [Discovery Environment](https://de.cyverse.org)
 ![de](assets/imagery/Discovery_blue.png)
@@ -572,75 +501,25 @@ Bring your own tools to the Discovery Environment
 
 +++
 
+## Container Camp
 
-Solution: Containerize your software, run anywhere. 
-
-+++
-
-<img src="assets/imagery/vertical_large.png" height="200">
-
-
-## Containers for HPC
-
-<img src="http://singularity.lbl.gov/images/logo/logo.svg" width="250">
-
-[Singularity](http://singularity.lbl.gov)
+March 6-8, 2019
+Location: University of Arizona, Tucson AZ
+https://www.cyverse.org/cc
 
 +++
 
-- Shares _most_ of the host environment
-  - all mounted volumes
-- `root` privileges inside container
-  - install your own software on HPC!
-- Build your own image or use a Dockerfile
+## Foundational Open Science Skills (FOSS)
+
+June 3–14, 2019
+Location: University of Arizona, Tucson AZ
+https://www.cyverse.org/foss
+
+<img src="https://static.wixstatic.com/media/1f832b_cbc41b96ceab44298f7522fa7ad9b7fe~mv2.jpg" width="800">
 
 +++
-
-## Want to learn more about Scientific Research with containers?
-
-_Advanced Workshop hosted by CyVerse_
-
-Feb 29 - March 2, 2019 (exact dates TBA)
-
-Location: University of Arizona Tucson, AZ
-
----
-
-
-## using Licensed software with CyVerse
-
-+++
-
-
 
 ## Setting up Atmosphere instances as Data Science Workbenches
-
-+++
-
-- Create a new instance in Atmosphere / Jetstream
-
-- If you are planning to "image" the instance, select the smallest functional size.
-
-  - Install new software into `/opt` `/srv`
-
-+++
-
-@title[EZ Install]
-
-## <span style="color: #e49436">EZ Install</span>
-<br>
-
-```shell
-$ ez
-$ ezd
-$ ezs
-$ ezj -R -3
-```
-
-@[1](View option menu for `ez`)
-@[2](Install latest version of Docker)
-@[3](Install latest version of Singularity)
-@[4](Install Anaconda and Jupyter Notebooks w/ Python3 and the R Kernel)
 
 +++
 
@@ -658,7 +537,7 @@ $ ezd
 $ sudo usermod -aG docker $USER
 $ exit
 $ docker pull rocker/geospatial:latest
-$ docker run --rm -d -p 8787:8787 rocker/geospatial:latest
+$ docker run --rm -d -p 8787:8787 -e PASSWORD=password rocker/geospatial:latest
 
 Done!
 
@@ -671,71 +550,10 @@ Done!
 @[5](Run the Container in detached mode `-d` on port `-p 8787:8787`)
 @[7](Open the Instance's IP address w/ port number in a new browser window)
 
-+++
-
-![Video](https://www.youtube.com/embed/8LSZqWpLbok) 
-
----
-
-<img src="https://upload.wikimedia.org/wikipedia/en/c/cd/Anaconda_Logo.png" height="200"><img src="http://blog.thedataincubator.com/wp-content/uploads/2017/01/jupyter-logo-300x298.png" height="200">
-
-+++
-
-@title[Anaconda]
-
-## <span style="color: #e49436">Anaconda and Jupyter Notebook</span>
-<br>
-
-```shell
-$ ezj -3
-$ sudo chown $USER:iplant-everyone /home/anaconda3 -R
-
-Done!
-```
-
-@[1](Install Anaconda and Jupyter Notebooks w/ Python3 and R Kernel)
-@[2](Change ownership of the Anaconda directory so that you can install new kernels)
-@[4](Open Jupyter via provided URL w/ token)
-
----
 
 <img src="assets/imagery/vertical_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
 
 +++
-
-@title[ArcGIS Jupyter Notebook with Docker]
-
-## <span style="color: #e49436">Docker + Jupyter + ArcPy</span>
-<br>
-
-```shell
-$ ezd
-$ usermod -aG docker $USER
-$ exit
-$ docker run -it -p 8888:8888 esridocker/arcgis-api-python-notebook
-
-Done!
-
-```
-
-@[1](Install latest version of Docker using `EZ` installation)
-@[2](Add yourself to the Docker group on your VM so you can run without `sudo`)
-@[3](exit and restart terminal)
-@[4](Pull the ArcGIS Jupyter Docker Container)
-@[6](The Jupyter notebook should now be running on the localhost - change `localhost` out for the VM's IP address)
-
----
-
-## What about other file systems?
-
-+++
-
-* Google Drive FUSE Client: [`google-drive-ocamlfuse`](https://github.com/astrada/google-drive-ocamlfuse)
-* Google Drive `Go` Client: [`drive`](https://github.com/odeke-em/drive)
-
-* [Amazon S3 FUSE](https://github.com/s3fs-fuse/s3fs-fuse)
-
----
 
 ## Multi-container jobs with Makeflow
 
@@ -760,7 +578,7 @@ How do I scale my research to use hundreds to thousands of computers?
 
 <img src="assets/imagery/cyverse_logo_150px.png" width="150">
 
-### CyVerse is supported by the National Science Foundation under Grants No. DBI-0735191 and DBI-1265383.
+### CyVerse is supported by the National Science Foundation under Grants No. DBI-0735191, DBI-1265383, & DBI-1743442.
 
 <img src="assets/imagery/nsf_logo.png" height="75"> 
 <img src="assets/imagery/az.png" height="75"> 
