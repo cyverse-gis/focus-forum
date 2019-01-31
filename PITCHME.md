@@ -98,7 +98,7 @@ Alan Perlis, 1982 Epigrams on Programming
 
 +++
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1000px-Docker_%28container_engine%29_logo.svg.png" height="400">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2000px-Docker_%28container_engine%29_logo.svg.png" width="800">
 
 +++
 
