@@ -21,11 +21,11 @@ twitter: tswetnam
 ### Today's Roadmap
 
 
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">Review: "Make Your Life (and Analyses) Easier with Containers - J. Pistorius 1/25 " </span> <!-- .element: class="fragment" -->
+<span style="font-size: 80%; color:#FF0000">Review: "Make Your Life (and Analyses) Easier with Containers - J. Pistorius 1/25 " </span> <!-- .element: class="fragment" -->
 
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">Building your own containers _*DANGER ZONE*_ </span> <!-- .element: class="fragment" -->
+<span style="font-size: 80%; color:#FF0000">Building your own container</span> <!-- .element: class="fragment" -->
 
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
+<span style="font-size: 80%; color:#FF0000">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
 
 ---
 
@@ -86,7 +86,7 @@ Alan Perlis, 1982 Epigrams on Programming
 
 ## Why Containerize?
 
-<span style="font-weight: bold; font-size: 80%; color:#FF0000"> For the same reasons Julian talked about Docker two weeks ago <!-- .element: class="fragment" -->
+<span style="font-weight: bold; font-size: 80%; color:#FF0000"> For the reasons Julian talked about two weeks ago <!-- .element: class="fragment" -->
 - Dependencies turn into wicked problems <!-- .element: class="fragment" -->
 - Compiling software is sloooowww <!-- .element: class="fragment" -->
 - Reproducability is hard across platforms <!-- .element: class="fragment" -->
@@ -98,21 +98,19 @@ Alan Perlis, 1982 Epigrams on Programming
 
 +++
 
-# DOCKER
-
-<img src="assets/imagery/vertical_large.png" height="200">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/1000px-Docker_%28container_engine%29_logo.svg.png" height="400">
 
 +++
 
 ## Which container is right for you?
 
-- <span style="font-weight: bold; font-size: 80%; color:#FF0000">*Easiest* Find one that already exists -> https://hub.docker.com/<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#FF0000">*Easy* Modify an existing container<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#FF0000">*Hard* Create your own from scratch<!-- .element: class="fragment" --> 
+- <span style="font-weight: bold; font-size: 80%; color:#55FF33">Find one that already exists on https://hub.docker.com/<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#F9FF33">Modify an existing container by adding new dependencies<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#FF0000">Create your own from scratch<!-- .element: class="fragment" --> 
   
 +++
 
-## <span style="color: #e49436">Writing a simple Dockerfile</span>
+## <span style="color: #e49436">Create a Dockerfile</span>
 <br>
 
 ```shell
@@ -162,6 +160,7 @@ Done!
 +++
 
 # Singularity
+<img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200">
 
 +++
 
