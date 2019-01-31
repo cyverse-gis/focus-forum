@@ -64,15 +64,15 @@ What Julian Talked about
 
 *different OS + third party software + updates/upgrades + redeployment* = <span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
  
-<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" width="400"> <!-- .element: class="fragment" --> <img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" width="350"> <!-- .element: class="fragment" -->
+<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" width="400"> <!-- .element: class="fragment" --> <img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" width="400"> <!-- .element: class="fragment" -->
 
 +++
 
-**Turing Tarpit** - Alan Perlis, 1982 Epigrams on Programming
+**Beware of the Turing Tarpit** Alan Perlis, 1982 Epigrams on Programming
 
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">_Beware of the Turing tarpit in which everything is possible but nothing of interest is easy_</span> <!-- .element: class="fragment" -->
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">_In which everything is possible but nothing of interest is easy_</span> <!-- .element: class="fragment" -->
 
-<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400"> <!-- .element: class="fragment" -->
+<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400">
 
 +++
 
@@ -104,13 +104,13 @@ What Julian Talked about
 
 ## Which container is right for you?
 
-- <span style="font-weight: bold; font-size: 80%; color:#FF0000">_*Easiest*_ Find one that already exists -> https://hub.docker.com/<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#FF0000">_*Easy*_ Modify an existing container<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#FF0000">_*Hard*_ Create your own from scratch<!-- .element: class="fragment" --> 
+- <span style="font-weight: bold; font-size: 80%; color:#FF0000">*Easiest* Find one that already exists -> https://hub.docker.com/<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#FF0000">*Easy* Modify an existing container<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#FF0000">*Hard* Create your own from scratch<!-- .element: class="fragment" --> 
   
 +++
 
-## <span style="color: #e49436">Writing a Dockerfile</span>
+## <span style="color: #e49436">Writing a simple Dockerfile</span>
 <br>
 
 ```shell
@@ -140,21 +140,23 @@ ENTRYPOINT fortune | cowsay | lolcat
 
 ```shell
 $ sudo docker build -t tswetnam/cowsay:latest .
-$ docker run tswetnam/cowsay:latest
-$ docker run -it tswetnam/cowsay:latest bash
+$ docker run -it tswetnam/cowsay:latest 
+$ docker run --rm -it --entrypoint /bin/bash tswetnam/cowsay:latest 
+$ fortune | cowsay | lolcat
 $ docker push tswetnam/cowsay:latest
 
 Done!
 ```
 
-@[1](Use `sudo` to build the image with your Singularity file)
-@[2](Run new image)
-@[3](Execute the programs in the container)
-@[4](Start a bash shell inside the container - note: you're inside the container now)
-@[5](Run the programs)
+@[1](Use `sudo` to build the image with a tag name)
+@[2](Run new image using the interactive and TTY flags)
+@[3](Start a bash shell inside the container - note: you're inside the container now)
+@[4](Run the programs from inside the container)
+@[5](Push your container to DockerHub)
 @[7](Done!)
 
 +++
+
 +++
 
 # Singularity
@@ -182,8 +184,8 @@ From: ubuntu:18.04
 
 @[1](Select an image repository - could be `docker`, `shub`, or `yum`)
 @[2](Image hosted on Docker Hub - Ubuntu Bionic Beaver 18.04)
-@[4](`%help` is a simple help text)
-@[6](`%post` command runs Bash commands like `apt-get` to install dependencies or programs)
+@[4,5](`%help` is a simple help text)
+@[6,7](`%post` command runs Bash commands like `apt-get` to install dependencies or programs)
 @[9](`%environment` settings, exporting paths for where to look for the commands)
 @[12](`%runscript` execute scripts in the container)
 
@@ -195,11 +197,12 @@ From: ubuntu:18.04
 <br>
 
 ```shell
-$ sudo singularity build --writable cowsay.simg Singularity
+$ sudo singularity build cowsay.simg Singularity
 $ singularity run cowsay.simg
 $ singularity exec cowsay.simg fortune | cowsay | lolcat
 $ singularity shell cowsay.simg
 $ fortune | cowsay | lolcat
+$ singularity run docker://tswetnam/cowsay:latest
 
 Done!
 ```
@@ -209,9 +212,11 @@ Done!
 @[3](Execute the programs in the container)
 @[4](Start a bash shell inside the container - note: you're inside the container now)
 @[5](Run the programs)
-@[7](Done!)
+@[6](Pull the Docker version of the container and run it with Singularity!)
+@[8](Done!)
 
 +++
+
 +++
 
 ## Installing Popular Container software on CyVerse Atmosphere
