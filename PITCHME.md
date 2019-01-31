@@ -13,7 +13,7 @@
 
 email: tswetnam@cyverse.org
 
-github: tyson-swetnam
+github id: [tyson-swetnam](https://github.com/tyson-swetnam) & [cyverse-gis](https://github.com/cyverse-gis)
 
 twitter: tswetnam
 
@@ -29,6 +29,81 @@ twitter: tswetnam
 <span style="color:#ffffff">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
 
 ---
+
+## Two weeks ago: Make your live and analyses easier with Containers
+
+### Julian Pistorius
+
++++
+
+What Julian Talked about
+
+
+---
+
+## Building your own Containers 
+
++++
+
+## Data scientists need places to work...
+
+<img src="https://21stcenturyrenaissanceprintmaker.files.wordpress.com/2014/04/nova-reperta-with-letters.png" height="400">
+
++++
+
+### A data science environment allows you to: 
+
+- Work in our favored environment, languages, and libraries 
+- Tools you want to use
+- Computational notebooks 
+  - Python, R, C++, Matlab, Spark, etc. 
+  
++++                                             
+
+## What are some possible pitfalls in working in bespoke software and environments?
+
++++
+
+<span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
+
+*different OS + third party software + updates/upgrades + redeployment* = 
+ 
+<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" width="400"> <!-- .element: class="fragment" -->
+
++++
+
+**Turing Tarpit** - Alan Perlis, 1982 Epigrams on Programming
+
+<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400"> <!-- .element: class="fragment" -->
+
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">_Beware of the Turing tar-pit in which **everything is possible** but **nothing of interest is easy**_</span> <!-- .element: class="fragment" -->
+
++++
+
+## Solution: Containerize your software, run it anywhere. 
+
+<img src="https://cdn-images-1.medium.com/max/1600/1*yo62B91F4V1QIJYirBbxlQ.jpeg" width="400"> <!-- .element: class="fragment" -->
+
++++
+
+## Why Containerize?
+
+<span style="font-weight: bold; font-size: 80%; color:#FF0000"> For the same reasons Julian talked about Docker two weeks ago <!-- .element: class="fragment" -->
+- Dependencies turn into wicked problems <!-- .element: class="fragment" -->
+- Compiling software is sloooowww <!-- .element: class="fragment" -->
+- Reproducability is hard across platforms <!-- .element: class="fragment" -->
+- Portability <!-- .element: class="fragment" --> **& _Scalability_** <!-- .element: class="fragment" -->
+
++++
+
+---
+
+## Have Container(s), Will Travel
+
+<img src="https://rhystranter.files.wordpress.com/2016/11/studio-ghibli-howls-moving-castle.jpg" height="400">
+
+---
+
 
 ## Skill levels
 
@@ -157,14 +232,6 @@ CyVerse covers the entire life cycle of the Research Object:
 Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
 
 <img src="https://www2.cs.arizona.edu/news/articles/images/200801-iplant.jpg" height="100"> <img src="http://blog.illumina.com/img/iplant.jpg" height="100"> <img src="http://www.cyverse.org/sites/default/files/cyverse_rgb.png" height="100">
-
-+++
-
-## Why the rebrand?
-
-+++
-
-Numerous research disciplines recognized the utility of the collaborative platform and began to use it in earnest. 
 
 +++
 
