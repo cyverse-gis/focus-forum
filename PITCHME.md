@@ -64,11 +64,13 @@ What Julian Talked about
 
 *different OS + third party software + updates/upgrades + redeployment* = <span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
  
-<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" width="400"> <!-- .element: class="fragment" --> <img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" width="400"> <!-- .element: class="fragment" -->
+<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" height="400"> <!-- .element: class="fragment" --> <img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" height="400"> <!-- .element: class="fragment" -->
 
 +++
 
-**Beware of the Turing Tarpit** Alan Perlis, 1982 Epigrams on Programming
+**Beware of the Turing Tarpit** 
+
+Alan Perlis, 1982 Epigrams on Programming
 
 <span style="font-weight: bold; font-size: 80%; color:#FF0000">_In which everything is possible but nothing of interest is easy_</span> <!-- .element: class="fragment" -->
 
@@ -185,9 +187,9 @@ From: ubuntu:18.04
 @[1](Select an image repository - could be `docker`, `shub`, or `yum`)
 @[2](Image hosted on Docker Hub - Ubuntu Bionic Beaver 18.04)
 @[4,5](`%help` is a simple help text)
-@[6,7](`%post` command runs Bash commands like `apt-get` to install dependencies or programs)
-@[9](`%environment` settings, exporting paths for where to look for the commands)
-@[12](`%runscript` execute scripts in the container)
+@[6,7,8](`%post` command runs Bash commands like `apt-get` to install dependencies or programs)
+@[9,10,11](`%environment` settings, exporting paths for where to look for the commands)
+@[12,13](`%runscript` execute scripts in the container)
 
 +++
 
