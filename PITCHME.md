@@ -273,11 +273,6 @@ Done!
 
 +++
 
-<img src="assets/imagery/Python_logo_and_wordmark.svg.png" height="150"> <img src="http://jupyter.org/assets/hublogo.svg" height="150">
-<img src="http://mybinder.org/assets/images/logo.svg" height="150">
-
-+++
-
 <img src="assets/imagery/Rlogonew.png" height="150"> <img src="https://www.rstudio.com/wp-content/uploads/2014/07/RStudio-Logo-Blue-Gradient.png" height="150">
 
 ---
@@ -331,7 +326,7 @@ Done!
 
 ## Installing Popular Container software on CyVerse Atmosphere
 
-<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" width="500">
+<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" height="150"><img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200"><img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="150"><img src="http://jupyter.org/assets/hublogo.svg" height="150">
 
 +++
 
@@ -382,7 +377,7 @@ Done!
 +++
 
 ## [Discovery Environment](https://de.cyverse.org)
-<img src="assets/imagery/Discovery_blue.png)
+<img src="assets/imagery/Discovery_blue.png" height="400">
 
 +++
 
@@ -401,7 +396,7 @@ Bring your own Docker Containers into the Discovery Environment
 
 +++
 
-## Visual Interactive Computing Environment (VICE)
+### Visual Interactive Computing Environment (VICE)
 
 <img src="assets/imagery/vice.png" width="500">
 
@@ -417,30 +412,31 @@ Bring your own Docker Containers into the Discovery Environment
 
 +++
 
-# [The Learning Center](http://learning.cyverse.org/en/latest/) 
+### [The Learning Center](http://learning.cyverse.org/en/latest/) 
 <img src="assets/imagery/Learningcenter_blue.png" height="75"> 
 
 +++
 
-# Container Camp
+### Container Camp
 
-March 6-8, 2019
-Location: University of Arizona, Tucson AZ
+#### March 6-8, 2019
+##### Location: University of Arizona, Tucson AZ
+
 https://www.cyverse.org/cc
 
 +++
 
-# Foundational Open Science Skills (FOSS)
+### Foundational Open Science Skills (FOSS)
+#### June 3–14, 2019
+##### Location: University of Arizona, Tucson AZ
 
-June 3–14, 2019
-Location: University of Arizona, Tucson AZ
 https://www.cyverse.org/foss
 
 <img src="https://static.wixstatic.com/media/1f832b_cbc41b96ceab44298f7522fa7ad9b7fe~mv2.jpg" width="800">
 
 ---
 
-<img src="assets/imagery/cyverse_white.png" width="150">
+<img src="assets/imagery/cyverse_white.png" width="700">
 
 ### CyVerse is supported by the National Science Foundation under Grants No. DBI-0735191, DBI-1265383, & DBI-1743442.
 
