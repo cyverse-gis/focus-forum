@@ -319,13 +319,13 @@ OpenScienceGrid Example
 
 ## [Atmosphere](https://cyverse.org/atmosphere)
 
-<img src="assets/imagery/Atmosphere_Blue.png" width="200">
+<img src="assets/imagery/Atmosphere_white.png" width="200">
 
 ## On demand cloud computing for scientific research
 
 +++
 
-<img src="assets/imagery/Atmosphere_Blue.png" width="200">
+<img src="assets/imagery/Atmosphere_white.png" width="200">
 
 - Linux environment (Centos, Ubuntu)
 - Collaborate together online
@@ -333,7 +333,7 @@ OpenScienceGrid Example
 
 +++
 
-<img src="assets/imagery/Atmosphere_Blue.png" width="200">
+<img src="assets/imagery/Atmosphere_white.png" width="200">
 
 - Multiple instance sizes and 'flavors'
   - 1 CPU, 4GB RAM, 30GB Disk
@@ -396,11 +396,11 @@ Done!
 
 ## [Discovery Environment](https://de.cyverse.org)
 
-<img src="assets/imagery/Discovery_blue.png" height="200">
+<img src="assets/imagery/Discovery_white.png" height="200">
 
 +++
 
-<img src="assets/imagery/Discovery_blue.png" height="200">
+<img src="assets/imagery/Discovery_white.png" height="200">
 
 - Add your own Docker containers as "Tools"
 - Build "Apps" with interfaces for users (equivalent command-line interface execution)
@@ -409,7 +409,7 @@ Done!
 
 +++
 
-<img src="assets/imagery/Discovery_blue.png" height="200">
+<img src="assets/imagery/Discovery_white.png" height="200">
 
 Bring your own Docker Containers into the Discovery Environment
 
@@ -437,7 +437,7 @@ Bring your own Docker Containers into the Discovery Environment
 
 ### [The Learning Center](http://learning.cyverse.org/en/latest/) 
 
-<img src="assets/imagery/Learningcenter_blue.png" height="200"> 
+<img src="assets/imagery/Learningcenter_white.png" height="200"> 
 
 +++
 
