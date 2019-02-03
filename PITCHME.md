@@ -83,11 +83,11 @@ twitter: tswetnam
 
 +++
 
-**Beware of the Turing Tarpit** 
+[Alan Perlis, 1982 Epigrams on Programming](https://web.archive.org/web/19990117034445/http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html)
 
-Alan Perlis, 1982 Epigrams on Programming
+**54. Beware of the Turing Tarpit** 
 
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">_In which everything is possible but nothing of interest is easy_</span> <!-- .element: class="fragment" -->
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">_in which everything is possible but nothing of interest is easy._</span> 
 
 <img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400">
 
