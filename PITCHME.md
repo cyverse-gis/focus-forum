@@ -305,7 +305,7 @@ Done!
 ---
 
 ## [Atmosphere](https://cyverse.org/atmosphere)
-![atmo](assets/imagery/Atmosphere_Blue.png)
+<img src="assets/imagery/Atmosphere_Blue.png width="200">
 
 +++
 
@@ -379,19 +379,16 @@ Done!
 @[5](Run the Container in detached mode `-d` on port `-p 8787:8787`)
 @[7](Runs RStudio-Server in the background, open it in a new browser tab)
 
-<img src="assets/imagery/vertical_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
-
 +++
 
 ## [Discovery Environment](https://de.cyverse.org)
-![de](assets/imagery/Discovery_blue.png)
+<img src="assets/imagery/Discovery_blue.png)
 
 +++
 
-<img src="http://www.cyverse.org/sites/default/files/DE-website-Mar2015.png" width="400">
-
-- Easily add any command-line tool or any executable into the tool list
-- Create or edit a new customized interface or create a sequenced workflow by chaining one app to another in automated workflow.
+- Add your own Docker containers as "Tools"
+- Build "Apps" with interfaces for users (equivalent command-line interface execution)
+- Create a sequenced workflow by chaining one app to another in an automated workflow.
 - Use application programming interfaces (APIs)
 
 +++
@@ -414,18 +411,18 @@ Bring your own Docker Containers into the Discovery Environment
 
 ---
 
-## Want to learn more?
+### Want to learn more?
 
 <img src="https://carpentries.org/images/TheCarpentries-opengraph.png" width="800">
 
 +++
 
-## [Learning Center](http://learning.cyverse.org/en/latest/) 
-![lc](assets/imagery/Learningcenter_blue.png)
+# [The Learning Center](http://learning.cyverse.org/en/latest/) 
+<img src="assets/imagery/Learningcenter_blue.png" height="75"> 
 
 +++
 
-## Container Camp
+# Container Camp
 
 March 6-8, 2019
 Location: University of Arizona, Tucson AZ
@@ -433,7 +430,7 @@ https://www.cyverse.org/cc
 
 +++
 
-## Foundational Open Science Skills (FOSS)
+# Foundational Open Science Skills (FOSS)
 
 June 3–14, 2019
 Location: University of Arizona, Tucson AZ
@@ -443,7 +440,7 @@ https://www.cyverse.org/foss
 
 ---
 
-<img src="assets/imagery/cyverse_logo_150px.png" width="150">
+<img src="assets/imagery/cyverse_white.png" width="150">
 
 ### CyVerse is supported by the National Science Foundation under Grants No. DBI-0735191, DBI-1265383, & DBI-1743442.
 
@@ -451,4 +448,3 @@ https://www.cyverse.org/foss
 <img src="assets/imagery/az.png" height="75"> 
 <img src="assets/imagery/tacc.png" height="75"> 
 <img src="assets/imagery/cshl.png" height="75"> 
-<img src="assets/imagery/uncw.gif" height="75">
