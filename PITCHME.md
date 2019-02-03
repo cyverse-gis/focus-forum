@@ -83,31 +83,6 @@ twitter: tswetnam
 
 +++
 
-[Alan Perlis, 1982 Epigrams on Programming](https://web.archive.org/web/19990117034445/http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html)
-
-**54. Beware of the Turing Tarpit** 
-
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">_in which everything is possible but nothing of interest is easy._</span> 
-
-<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400">
-
-+++
-
-## Data scientists need places to work...
-
-<img src="https://21stcenturyrenaissanceprintmaker.files.wordpress.com/2014/04/nova-reperta-with-letters.png" height="400">
-
-+++
-
-### A data science workbench allows you to: 
-
-- Work in a favored environment & language 
-- Tools and libraries you like to use
-- Computational notebooks 
-  - Python, R, C++, Matlab, Spark, etc. 
-  
-+++
-
 ## <span style="color: #e49436">Create a Dockerfile</span>
 <br>
 
@@ -226,38 +201,19 @@ Done!
 
 +++
 
-+++
+[Alan Perlis, 1982 Epigrams on Programming](https://web.archive.org/web/19990117034445/http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html)
 
-## Installing Popular Container software on CyVerse Atmosphere
+**54. Beware of the Turing Tarpit** 
 
-+++
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">_in which everything is possible but nothing of interest is easy._</span> 
 
-@title[EZ Install]
-
-## <span style="color: #e49436">EZ Install</span>
-<br>
-
-```shell
-$ ez
-$ ezd
-$ ezs
-$ ezj -R -3
-$ ezjh
-```
-
-@[1](View option menu for Ansible `ez`)
-@[2](Install latest version of Docker)
-@[3](Install latest version of Singularity)
-@[4](Install Anaconda and Jupyter Notebooks w/ Python3 and the R Kernel)
-@[5](Install Jupyter-Hub with CyVerse CAS)
+<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400">
 
 +++
 
 ## Building the "best" containers takes time
 
 <img src="https://consequenceofsound.files.wordpress.com/2016/04/screen-shot-2016-04-08-at-10-33-51-am.png" width="500">
-
-+++
 
 ---
 
@@ -296,66 +252,21 @@ $ ezjh
 
 ---
 
-### What does <span style="font-weight: bold; color: #118224">large-scale</span> really mean in the era of <span style="color: #3685E3">_big data_</span>?
++++
+
+## Data scientists need places to work...
+
+<img src="https://21stcenturyrenaissanceprintmaker.files.wordpress.com/2014/04/nova-reperta-with-letters.png" height="400">
 
 +++
 
-<span style="font-size: 150%; color:#ffffff">Data are always increasing in volume</span>
+### A data science workbench allows you to: 
 
-+++
-
-<span style="font-weight: bold; font-size: 150%; color:#FF0000">90% </span><span style="font-size: 150%; color: #ffffff"> of all data in human history were created in the [last 24 months](https://blog.microfocus.com/how-much-data-is-created-on-the-internet-each-day/)</span>
-
-+++
-
-<span style="font-size: 150%; color:#ffffff">So, what qualifies as big data?</span>
-
-@[0](<span style="font-size: 250%; font-weight: bold; color:#3685E3">Megabyte 10<sup><span style="font-size: 75%; font-weight: bold; color:#3685E3">6</span></sup>?</span>)
-@[1](<span style="font-size: 250%; font-weight: bold; color:#0000FF">Gigabyte 10<sup><span style="font-size: 75%; font-weight: bold; color:#0000FF">9</span></sup>?</span>)
-@[2](<span style="font-size: 250%; font-weight: bold; color:#0000A0">Terabyte 10<sup><span style="font-size: 75%; font-weight: bold; color:#0000A0">12</span></sup>?</span>)
-@[3](<span style="font-size: 250%; font-weight: bold; color:#800080">Petabyte 10<sup><span style="font-size: 75%; font-weight: bold; color:#800080">15</span></sup>?</span>)
-@[4](<span style="font-size: 250%; font-weight: bold; color:#00FF00">Exabyte 10<sup><span style="font-size: 75%; font-weight: bold; color:#00FF00">18</span></sup>?</span>)
-@[5](<span style="font-size: 300%; font-weight: bold; color:#FF0000">data are just data</span>)
-
-+++
-
-Computing power and storage capacity are advancing at exponential rate
-
-+++?image=assets/imagery/Moores_Law_over_120_Years.png&size=contain
-
-<span style="color:#3685E3"> last 5 are all GPUs </span> 
-
----
-
-## The Research Object
-
-+++
-
-<span style="font-size: 150%; color:#ffffff">Okay, what is a [Research Object](http://www.researchobject.org/)?</span>
-
-@[1](<span style="font-size: 150%; font-weight: bold; color:#3685E3">broadly, it is a method for identification, aggregation, and exchange of scholarly information</span>)
-
-+++
-"_Supporting the publication of *more than just PDFs*, making *data*, *code*, and other resources *first class citizens of scholarship*_"
-
-[Research Objects](http://www.researchobject.org/) have:
-
-- Digital identity: DOI, <!-- .element: class="fragment" --> [ORCID](http://orcid.org/) <!-- .element: class="fragment" -->
-
-- Annotation & Provenance <!-- .element: class="fragment" --> *METADATA!* <!-- .element: class="fragment" -->
-
-Most importantly: they are discoverable & reusable <!-- .element: class="fragment" -->
-
-+++
-
-CyVerse covers the entire life cycle of the Research Object:
-
-- Create
-- Analyze
-- Annotate
-- Publish
-- Archive
-
+- Work in a favored environment & language 
+- Tools and libraries you like to use
+- Computational notebooks 
+  - Python, R, C++, Matlab, Spark, etc. 
+  
 +++
 
 ## Popular Data Science Software
@@ -415,13 +326,33 @@ CyVerse covers the entire life cycle of the Research Object:
 - Attach (and swap) external storage volumes    
 - emulated web shell and desktop via [Apache _Guacamole_](https://guacamole.incubator.apache.org/)  
 
-+++
-
-## Setting up Atmosphere instances as Data Science Workbenches
 
 +++
+
+## Installing Popular Container software on CyVerse Atmosphere
 
 <img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" width="500">
+
++++
+
+@title[EZ Install]
+
+## <span style="color: #e49436">EZ Install</span>
+<br>
+
+```shell
+$ ez
+$ ezd
+$ ezs
+$ ezj -R -3
+$ ezjh
+```
+
+@[1](View option menu for Ansible `ez`)
+@[2](Install latest version of Docker)
+@[3](Install latest version of Singularity)
+@[4](Install Anaconda and Jupyter Notebooks w/ Python3 and the R Kernel)
+@[5](Install a Jupyter-Hub with CyVerse CAS)
 
 +++
 
@@ -444,9 +375,9 @@ Done!
 @[1](install Docker and Portainer.io)
 @[2](change `sudo` privileges)
 @[3](exit and restart terminal window)
-@[4](pull the Rocker/Geospatial Rstudio-Server from DockerHub)
+@[4](pull the latest version of Rocker Geospatial RStudio-Server from DockerHub)
 @[5](Run the Container in detached mode `-d` on port `-p 8787:8787`)
-@[7](Open the Instance's IP address w/ port number in a new browser window)
+@[7](Runs RStudio-Server in the background, open it in a new browser tab)
 
 <img src="assets/imagery/vertical_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
 
@@ -485,6 +416,8 @@ Bring your own Docker Containers into the Discovery Environment
 
 ## Want to learn more?
 
+<img src="https://carpentries.org/images/TheCarpentries-opengraph.png" width="800">
+
 +++
 
 ## [Learning Center](http://learning.cyverse.org/en/latest/) 
@@ -507,14 +440,6 @@ Location: University of Arizona, Tucson AZ
 https://www.cyverse.org/foss
 
 <img src="https://static.wixstatic.com/media/1f832b_cbc41b96ceab44298f7522fa7ad9b7fe~mv2.jpg" width="800">
-
-+++
-
-## If you don't know where to start?
-
-[The Carpentries](https://carpentries.org/)
-
-<img src="https://carpentries.org/images/TheCarpentries-opengraph.png" width="800">
 
 ---
 
