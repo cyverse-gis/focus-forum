@@ -435,9 +435,8 @@ https://www.cyverse.org/foss
 
 <img src="assets/imagery/cyverse_white.png" width="700">
 
-### CyVerse is supported by the National Science Foundation under Grants No. DBI-0735191, DBI-1265383, & DBI-1743442.
+### CyVerse is supported by the National Science Foundation <img src="assets/imagery/nsf_logo.png" height="75"> under Grants No. DBI-0735191, DBI-1265383, & DBI-1743442.
 
-<img src="assets/imagery/nsf_logo.png" height="75"> 
 <img src="assets/imagery/az.png" height="75"> 
 <img src="assets/imagery/tacc.png" height="75"> 
 <img src="assets/imagery/cshl.png" height="75"> 
