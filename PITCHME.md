@@ -21,21 +21,70 @@ twitter: tswetnam
 ### Today's Roadmap
 
 
-<span style="font-size: 80%; color:#FF0000">Review: "Make Your Life (and Analyses) Easier with Containers - J. Pistorius 1/25 " </span> <!-- .element: class="fragment" -->
+<span style="font-size: 80%; color:#FF0000">Review: "Make Your Life (and Analyses) Easier with Containers, Julian Pistorius" </span> <!-- .element: class="fragment" -->
 
-<span style="font-size: 80%; color:#FF0000">Building your own container</span> <!-- .element: class="fragment" -->
+<span style="font-size: 100%; color:#FF0000">Building your own container</span> <!-- .element: class="fragment" -->
 
-<span style="font-size: 80%; color:#FF0000">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
+<span style="font-size: 100%; color:#FF0000">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
 
 ---
 
-## Two weeks ago: [Make your life and analyses easier with Containers](https://github.com/julianpistorius/presentation-containers-intro)
+### Two weeks ago: [Make your life and analyses easier with Containers](https://github.com/julianpistorius/presentation-containers-intro)
 
-### Presented by Julian Pistorius
+#### Presented by Julian Pistorius
+
++++   
+
+## Pitfalls when working in bespoke software and environments
 
 +++
 
-What Julian Talked about
+*different OS + third party software + updates/upgrades + redeployment* = <span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
+ 
+<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" height="400"> <!-- .element: class="fragment" --> <img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" height="400"> <!-- .element: class="fragment" -->
+
++++
+
+## Solution: Containerize the software, run it anywhere. 
+
+<img src="https://cdn-images-1.medium.com/max/1600/1*yo62B91F4V1QIJYirBbxlQ.jpeg" width="400"> <!-- .element: class="fragment" -->
+
++++
+
+## Why Containerize?
+
+- Dependencies turn into wicked problems <!-- .element: class="fragment" -->
+- Compiling software is sloooowww <!-- .element: class="fragment" -->
+- Reproducability is hard across platforms <!-- .element: class="fragment" -->
+- Portability <!-- .element: class="fragment" --> **& _Scalability_** <!-- .element: class="fragment" -->
+
+
+## Which software should you use?
+
++++
+### DOCKER
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2000px-Docker_%28container_engine%29_logo.svg.png" width="800">
+
+### Singularity
+<img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200">
+
++++
+
+## Picking the container that is right for you
+
+- <span style="font-weight: bold; font-size: 80%; color:#55FF33">Find one that already exists on https://hub.docker.com/<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#F9FF33">Modify an existing container by adding new dependencies<!-- .element: class="fragment" --> 
+-  <span style="font-weight: bold; font-size: 80%; color:#FF0000">Create your own from scratch<!-- .element: class="fragment" --> 
+
++++
+
+**Beware of the Turing Tarpit** 
+
+Alan Perlis, 1982 Epigrams on Programming
+
+<span style="font-weight: bold; font-size: 80%; color:#FF0000">_In which everything is possible but nothing of interest is easy_</span> <!-- .element: class="fragment" -->
+
+<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400">
 
 +++
 
@@ -51,58 +100,6 @@ What Julian Talked about
 - Tools and libraries you like to use
 - Computational notebooks 
   - Python, R, C++, Matlab, Spark, etc. 
-  
-+++                                             
-
-## What are some possible pitfalls in working in bespoke software and environments?
-
-+++
-
-*different OS + third party software + updates/upgrades + redeployment* = <span style="font-weight: bold; font-size: 100%; color:#FF0000">_Dependency Hell_</span> <!-- .element: class="fragment" -->
- 
-<img src="https://imgs.xkcd.com/comics/python_environment_2x.png" height="400"> <!-- .element: class="fragment" --> <img src="https://pbs.twimg.com/media/DB6QcoNVYAA-w6N.jpg" height="400"> <!-- .element: class="fragment" -->
-
-+++
-
-**Beware of the Turing Tarpit** 
-
-Alan Perlis, 1982 Epigrams on Programming
-
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">_In which everything is possible but nothing of interest is easy_</span> <!-- .element: class="fragment" -->
-
-<img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400">
-
-+++
-
-## Solution: Containerize your software, run it anywhere. 
-
-<img src="https://cdn-images-1.medium.com/max/1600/1*yo62B91F4V1QIJYirBbxlQ.jpeg" width="400"> <!-- .element: class="fragment" -->
-
-+++
-
-## Why Containerize?
-
-<span style="font-weight: bold; font-size: 80%; color:#FF0000"> For the reasons Julian talked about two weeks ago <!-- .element: class="fragment" -->
-- Dependencies turn into wicked problems <!-- .element: class="fragment" -->
-- Compiling software is sloooowww <!-- .element: class="fragment" -->
-- Reproducability is hard across platforms <!-- .element: class="fragment" -->
-- Portability <!-- .element: class="fragment" --> **& _Scalability_** <!-- .element: class="fragment" -->
-
-+++
-
-## What software should you use?
-
-+++
-# DOCKER
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2000px-Docker_%28container_engine%29_logo.svg.png" width="800">
-
-+++
-
-## Which container is right for you?
-
-- <span style="font-weight: bold; font-size: 80%; color:#55FF33">Find one that already exists on https://hub.docker.com/<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#F9FF33">Modify an existing container by adding new dependencies<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#FF0000">Create your own from scratch<!-- .element: class="fragment" --> 
   
 +++
 
@@ -355,24 +352,6 @@ CyVerse covers the entire life cycle of the Research Object:
 - Publish
 - Archive
 
----
-
-## Data Science "Workbenches"
-
-+++
-
-## Data scientists need a place to work...
-
-<img src="https://21stcenturyrenaissanceprintmaker.files.wordpress.com/2014/04/nova-reperta-with-letters.png" height="400">
-
-+++
-
-### A data science workbench allows: 
-
-- Work in your preferred environment, languages, and libraries 
-- Select the tools you want to use
-- Write in a computational notebook  
-  - Python, R, C++, Matlab, Spark, etc. 
 +++
 
 ## Popular Data Science Software
