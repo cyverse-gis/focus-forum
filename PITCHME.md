@@ -252,9 +252,6 @@ $ ezjh
 
 +++
 
-
-+++
-
 ## Building the "best" containers takes time
 
 <img src="https://consequenceofsound.files.wordpress.com/2016/04/screen-shot-2016-04-08-at-10-33-51-am.png" width="500">
@@ -267,18 +264,20 @@ $ ezjh
 
 <img src="https://rhystranter.files.wordpress.com/2016/11/studio-ghibli-howls-moving-castle.jpg" height="400">
 
----
++++
 
 
-## Skill levels
+## Example Use Cases
 
 +++
 
-<span style="font-weight: bold; font-size: 150%; color:#FF0000">New users</span>
+<span style="font-weight: bold; font-size: 150%; color:#FF0000">Graphical User</span>
 
-- Interest in Graphic User Interfaces (GUI) & Integrated Development Environment (IDE) tools <!-- .element: class="fragment" -->
+- Works in Graphic User Interfaces (GUI) & Integrated Development Environment (IDE) tools <!-- .element: class="fragment" -->
   
-- Maybe just learning spatial analyses for the first time <!-- .element: class="fragment" -->
+- Needs more computing power than their laptop <!-- .element: class="fragment" -->
+
+- Cannot afford to buy a $5,000 workstation <!-- .element: class="fragment" -->
 
 +++
 
@@ -391,8 +390,6 @@ CyVerse covers the entire life cycle of the Research Object:
 
 ### How can you use containers within CyVerse?
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Scholars_attending_a_lecture_in_the_Ashmolean_Museum%2C_Oxford_Wellcome_V0006732.jpg" height="600">
-
 ---
 
 ## [Atmosphere](https://cyverse.org/atmosphere)
@@ -419,6 +416,41 @@ CyVerse covers the entire life cycle of the Research Object:
 
 +++
 
+## Setting up Atmosphere instances as Data Science Workbenches
+
++++
+
+<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" width="500">
+
++++
+
+@title[Docker RStudio]
+
+## <span style="color: #e49436">Docker + RStudio</span>
+<br>
+
+```shell
+$ ezd -p
+$ sudo usermod -aG docker $USER
+$ exit
+$ docker pull rocker/geospatial:latest
+$ docker run --rm -d -p 8787:8787 -e PASSWORD=password rocker/geospatial:latest
+
+Done!
+
+```
+
+@[1](install Docker and Portainer.io)
+@[2](change `sudo` privileges)
+@[3](exit and restart terminal window)
+@[4](pull the Rocker/Geospatial Rstudio-Server from DockerHub)
+@[5](Run the Container in detached mode `-d` on port `-p 8787:8787`)
+@[7](Open the Instance's IP address w/ port number in a new browser window)
+
+<img src="assets/imagery/vertical_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
+
++++
+
 ## [Discovery Environment](https://de.cyverse.org)
 ![de](assets/imagery/Discovery_blue.png)
 
@@ -427,12 +459,12 @@ CyVerse covers the entire life cycle of the Research Object:
 <img src="http://www.cyverse.org/sites/default/files/DE-website-Mar2015.png" width="400">
 
 - Easily add any command-line tool or any executable into the tool list
-- create or edit a new customized interface or create a sequenced workflow by chaining one app to another in automated workflow.
+- Create or edit a new customized interface or create a sequenced workflow by chaining one app to another in automated workflow.
 - Use application programming interfaces (APIs)
 
 +++
 
-Bring your own tools to the Discovery Environment
+Bring your own Docker Containers into the Discovery Environment
 
 <img src="https://f1000researchdata.s3.amazonaws.com/manuscripts/9614/e8fc9784-bed0-46bd-abc4-e070165a0c78_figure2.gif" height="400">
 
@@ -444,8 +476,15 @@ Bring your own tools to the Discovery Environment
 
 <img src="assets/imagery/vice.png" width="500">
 
++++
+
+<img src="assets/imagery/vice_diagram_small.png" width="900">
 
 ---
+
+## Want to learn more?
+
++++
 
 ## [Learning Center](http://learning.cyverse.org/en/latest/) 
 ![lc](assets/imagery/Learningcenter_blue.png)
@@ -470,60 +509,11 @@ https://www.cyverse.org/foss
 
 +++
 
-## Setting up Atmosphere instances as Data Science Workbenches
+## If you don't know where to start?
 
-+++
+[The Carpentries](https://carpentries.org/)
 
-<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" width="500">
-
-+++
-
-@title[Docker RStudio]
-
-## <span style="color: #e49436">Docker + RStudio</span>
-<br>
-
-```shell
-$ ezd
-$ sudo usermod -aG docker $USER
-$ exit
-$ docker pull rocker/geospatial:latest
-$ docker run --rm -d -p 8787:8787 -e PASSWORD=password rocker/geospatial:latest
-
-Done!
-
-```
-
-@[1](install Docker)
-@[2](change `sudo` privileges)
-@[3](exit and restart terminal window)
-@[4](pull the Rocker/Geospatial Rstudio-Server from DockerHub)
-@[5](Run the Container in detached mode `-d` on port `-p 8787:8787`)
-@[7](Open the Instance's IP address w/ port number in a new browser window)
-
-
-<img src="assets/imagery/vertical_large.png" height="200"> <img src="https://secure.gravatar.com/avatar/eebe55e8aac8144c9a0e2e1cac5d9057.jpg" height="200">
-
-+++
-
-## Multi-container jobs with Makeflow
-
-+++
-
-How do I scale my research to use hundreds to thousands of computers?
-<img src="https://raw.githubusercontent.com/cooperative-computing-lab/makeflow-examples/master/banner.png" width="800">
-
-+++?image=assets/imagery/eemt_github.PNG&size=auto 95%
-
-+++?image=assets/imagery/eemt_singularity.png.png&size=auto 95%
-
----
-
-## Where to get started, if you don't know where to start?
-
-[The Carpentries](https://software-carpentry.org/)
-
-[http://learning.cyverse.org/](http://learning.cyverse.org/)
+<img src="https://carpentries.org/images/TheCarpentries-opengraph.png" width="800">
 
 ---
 
