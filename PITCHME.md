@@ -439,8 +439,6 @@ https://www.cyverse.org/foss
 <img src="assets/imagery/tacc.png" height="75"> 
 <img src="assets/imagery/cshl.png" height="75"> 
 
-##### supported by
-
-<img src="assets/imagery/nsf_logo.png" height="125"> 
+##### supported by <img src="assets/imagery/nsf_logo.png" height="125"> 
 
 ##### Grants No. DBI-0735191, DBI-1265383, & DBI-1743442.
