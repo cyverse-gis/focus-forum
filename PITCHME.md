@@ -201,6 +201,10 @@ Done!
 
 +++
 
+# Lessons Learned
+
++++
+
 [Alan Perlis, 1982 Epigrams on Programming](https://web.archive.org/web/19990117034445/http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html)
 
 **54. Beware of the Turing Tarpit** 
@@ -238,7 +242,13 @@ Done!
 
 +++
 
-<span style="font-weight: bold; font-size: 150%; color:#F0FF00">Experienced users</span>
+<span style="font-weight: bold; font-size: 150%; color:#FF0000">Graphical User</span>
+
+Ubuntu Desktop + NVIDIA
+
++++
+
+<span style="font-weight: bold; font-size: 150%; color:#F0FF00">Power User</span>
 
 - Interest in scaling workflows beyond the laptop / desktop on to HPC and Cloud <!-- .element: class="fragment" -->
 
@@ -246,9 +256,18 @@ Done!
 
 +++
 
-<span style="font-weight: bold; font-size: 150%; color:#FFAA00">Power users</span>
+Makeflow Example
+
++++
+
+<span style="font-weight: bold; font-size: 150%; color:#FFAA00">Small Research Group</span>
 
 - Interest in integrating global and national datasets across HPC environments for massively parallel computing <!-- .element: class="fragment" -->
+
++++
+
+OpenScienceGrid Example
+
 
 ---
 
@@ -269,11 +288,7 @@ Done!
   
 +++
 
-## Popular Data Science Software
-
-+++
-
-<img src="assets/imagery/Rlogonew.png" height="150"> <img src="https://www.rstudio.com/wp-content/uploads/2014/07/RStudio-Logo-Blue-Gradient.png" height="150">
+# Working on CyVerse
 
 ---
 
@@ -300,7 +315,8 @@ Done!
 ---
 
 ## [Atmosphere](https://cyverse.org/atmosphere)
-<img src="assets/imagery/Atmosphere_Blue.png width="200">
+
+<img src="assets/imagery/Atmosphere_Blue.png" width="200">
 
 +++
 
@@ -351,7 +367,7 @@ $ ezjh
 
 +++
 
-<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" height="150">
+<img src="assets/imagery/Rlogonew.png" height="150"> <img src="https://www.rstudio.com/wp-content/uploads/2014/07/RStudio-Logo-Blue-Gradient.png" height="150">
 
 ```shell
 $ ezd -p
