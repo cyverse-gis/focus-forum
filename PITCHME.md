@@ -4,7 +4,8 @@
 
 February 8, 2019
 #### Tyson Lee Swetnam
-##[CyVerse](http://cyverse.org/)
+<img src="assets/imagery/cyverse_white.png" width="500">
+
 
 +++
 
