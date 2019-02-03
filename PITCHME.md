@@ -58,23 +58,27 @@ twitter: tswetnam
 - Reproducability is hard across platforms <!-- .element: class="fragment" -->
 - Portability <!-- .element: class="fragment" --> **& _Scalability_** <!-- .element: class="fragment" -->
 
++++
 
 ## Which software should you use?
+<img src="assets/imagery/dreaming.png" width="500">
 
 +++
 ### DOCKER
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2000px-Docker_%28container_engine%29_logo.svg.png" width="800">
+
++++
 
 ### Singularity
 <img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200">
 
 +++
 
-## Picking the container that is right for you
+## Choosing theright container
 
-- <span style="font-weight: bold; font-size: 80%; color:#55FF33">Find one that already exists on https://hub.docker.com/<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#F9FF33">Modify an existing container by adding new dependencies<!-- .element: class="fragment" --> 
--  <span style="font-weight: bold; font-size: 80%; color:#FF0000">Create your own from scratch<!-- .element: class="fragment" --> 
+- <span style="font-weight: bold; font-size: 80%; color:#55FF33">Find one that already exists on https://hub.docker.com/</span>
+- <span style="font-weight: bold; font-size: 80%; color:#F9FF33">Modify an existing container by adding new dependencies</span> 
+- <span style="font-weight: bold; font-size: 80%; color:#FF0000">Create your own from scratch</span>
 
 +++
 
@@ -94,7 +98,7 @@ Alan Perlis, 1982 Epigrams on Programming
 
 +++
 
-### A data science environment allows you to: 
+### A data science workbench allows you to: 
 
 - Work in a favored environment & language 
 - Tools and libraries you like to use
@@ -367,28 +371,9 @@ CyVerse covers the entire life cycle of the Research Object:
 
 ---
 
-## What is [CyVerse](http://cyverse.org)? 
-![cyverse](assets/imagery/cyverse_logo_150px.png)
+### CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_People & Research Objectives_</span>  <!-- .element: class="fragment" -->
 
-+++
-
-Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
-
-<img src="https://www2.cs.arizona.edu/news/articles/images/200801-iplant.jpg" height="100"> <img src="http://blog.illumina.com/img/iplant.jpg" height="100"> <img src="http://www.cyverse.org/sites/default/files/cyverse_rgb.png" height="100">
-
-+++
-
-<span style="font-weight: bold; color:#3685E3">Vision:</span> Transforming science through data driven discovery.</span>
-
-+++
-
-<span style="font-weight: bold; color: #3685E3">Mission:</span> To design, deploy, and expand a national cyberinfrastructure for life sciences research, and to train scientists in its use.</span>
-
-+++
-
-### CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_people & research_</span>  <!-- .element: class="fragment" -->
-
-### CyVerse' success depends on users innovating within an ecosystem of interoperability  <!-- .element: class="fragment" -->
+### Our success depends on users innovating within an ecosystem of interoperability  <!-- .element: class="fragment" -->
 
 +++
 
@@ -398,13 +383,13 @@ Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
 
 +++
 
-### When scientists begin using CyVerse <span style="font-weight: bold; color: #3685E3">we</span> work together to develop your tools, workflows, and datasets
+### When you begin using CyVerse <span style="font-weight: bold; color: #3685E3">WE</span> work with you to identify your tools, workflows, and datasets
 
 <img src="http://insidethegem.com/wp-content/uploads/organic-logo.png" height="150"> <img src="http://cstaab.com/wp-content/uploads/cpp_java_python.png" height="150"> <img src="https://pbs.twimg.com/profile_images/662507863516905472/7piKPHHv_400x400.jpg" height="150"> 
 
 ---
 
-### What does CyVerse offer for you to work with containers?
+### How can you use containers within CyVerse?
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/6/65/Scholars_attending_a_lecture_in_the_Ashmolean_Museum%2C_Oxford_Wellcome_V0006732.jpg" height="600">
 
@@ -434,21 +419,6 @@ Started 2008 as iPlant Collaborative, renewed 2013 by NSF, rebranded 2016
 
 +++
 
-## Atmosphere proved to be very popular...
-
-+++
-
-## ... and so they built
-
-<img src="assets/imagery/Jetstream_logo_hi_res_cropped.jpg" width="600">
-
-+++?image=/assets/imagery/Jetstream_topology_diagram-crop.png&size=95%
-
-- a research scale cloud running Atmosphere
-- instance sizes from 1 core 2GB RAM, up to 44 CPU, 120GB RAM
-
-+++
-
 ## [Discovery Environment](https://de.cyverse.org)
 ![de](assets/imagery/Discovery_blue.png)
 
@@ -467,6 +437,12 @@ Bring your own tools to the Discovery Environment
 <img src="https://f1000researchdata.s3.amazonaws.com/manuscripts/9614/e8fc9784-bed0-46bd-abc4-e070165a0c78_figure2.gif" height="400">
 
 [Devisetty et al. 2016](https://f1000research.com/articles/5-1442/v1)
+
++++
+
+## Visual Interactive Computing Environment (VICE)
+
+<img src="assets/imagery/vice.png" width="500">
 
 
 ---
