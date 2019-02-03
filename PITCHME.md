@@ -21,7 +21,7 @@ twitter: tswetnam
 ### Today's Roadmap
 
 
-<span style="font-size: 80%; color:#FF0000">Review: "Make Your Life (and Analyses) Easier with Containers, Julian Pistorius" </span> <!-- .element: class="fragment" -->
+<span style="font-size: 80%; color:#FF0000">Review of two weeks ago: "Make Your Life (and Analyses) Easier with Containers" </span> <!-- .element: class="fragment" -->
 
 <span style="font-size: 100%; color:#FF0000">Building your own container</span> <!-- .element: class="fragment" -->
 
@@ -29,7 +29,7 @@ twitter: tswetnam
 
 ---
 
-### Two weeks ago: [Make your life and analyses easier with Containers](https://github.com/julianpistorius/presentation-containers-intro)
+### [Make your life and analyses easier with Containers](https://github.com/julianpistorius/presentation-containers-intro)
 
 #### Presented by Julian Pistorius
 
@@ -74,7 +74,7 @@ twitter: tswetnam
 
 +++
 
-## Choosing theright container
+## Choosing the right container
 
 - <span style="font-weight: bold; font-size: 80%; color:#55FF33">Find one that already exists on https://hub.docker.com/</span>
 - <span style="font-weight: bold; font-size: 80%; color:#F9FF33">Modify an existing container by adding new dependencies</span> 
