@@ -326,7 +326,7 @@ Done!
 
 ## Installing Popular Container software on CyVerse Atmosphere
 
-<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" height="150"><img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200"><img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="150"><img src="http://jupyter.org/assets/hublogo.svg" height="150">
+<img src="assets/imagery/RStudio-Logo-Blue-Gradient.png" height="150"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Docker_%28container_engine%29_logo.svg/2000px-Docker_%28container_engine%29_logo.svg.png" width="150"><img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="150"><img src="http://jupyter.org/assets/hublogo.svg" height="150">
 
 +++
 
