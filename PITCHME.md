@@ -93,7 +93,7 @@ twitter: tswetnam
 FROM ubuntu:18.04
 MAINTAINER "Tyson Lee Swetnam" tswetnam@cyverse.org
 RUN apt-get update && apt-get install -y fortune cowsay lolcat
-ENV PATH /usr/games:${PATH}
+ENV PATH=/usr/games:${PATH}
 ENV LC_ALL=C
 ENTRYPOINT fortune | cowsay | lolcat
 
@@ -327,7 +327,7 @@ OpenScienceGrid Example
 
 <img src="assets/imagery/Atmosphere_white.png" width="200">
 
-- Linux environment (Centos, Ubuntu)
+- Linux environment (CentOS, Ubuntu)
 - Collaborate together online
 - Publically host custom images
 
