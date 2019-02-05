@@ -56,7 +56,7 @@ twitter: tswetnam
 
 - Dependencies turn into wicked problems <!-- .element: class="fragment" -->
 - Compiling software is sloooowww <!-- .element: class="fragment" -->
-- Reproducability is hard across platforms <!-- .element: class="fragment" -->
+- Reproducibility is hard across platforms <!-- .element: class="fragment" -->
 - Portability <!-- .element: class="fragment" --> **& _Scalability_** <!-- .element: class="fragment" -->
 
 +++
