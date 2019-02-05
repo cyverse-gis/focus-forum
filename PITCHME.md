@@ -202,7 +202,7 @@ Done!
 @[6](Pull the Docker version of the container and run it with Singularity!)
 @[8](Done!)
 
-+++
+---
 
 # Lessons Learned
 
@@ -229,7 +229,6 @@ Done!
 <img src="https://rhystranter.files.wordpress.com/2016/11/studio-ghibli-howls-moving-castle.jpg" height="400">
 
 +++
-
 
 ## Example Use Cases
 
@@ -274,26 +273,10 @@ OpenScienceGrid Example
 
 ---
 
-+++
-
-## Data scientists need places to work...
-
-<img src="https://21stcenturyrenaissanceprintmaker.files.wordpress.com/2014/04/nova-reperta-with-letters.png" height="400">
-
-+++
-
-### A data science workbench allows you to: 
-
-- Work in a favored environment & language 
-- Tools and libraries you like to use
-- Computational notebooks 
-  - Python, R, C++, Matlab, Spark, etc. 
-  
-+++
 
 # Working on CyVerse
 
----
++++
 
 ### CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_People & Research Objectives_</span>  <!-- .element: class="fragment" -->
 
@@ -311,11 +294,11 @@ OpenScienceGrid Example
 
 <img src="http://insidethegem.com/wp-content/uploads/organic-logo.png" height="150"> <img src="http://cstaab.com/wp-content/uploads/cpp_java_python.png" height="150"> <img src="https://pbs.twimg.com/profile_images/662507863516905472/7piKPHHv_400x400.jpg" height="150"> 
 
----
++++
 
 ### How can you use containers within CyVerse?
 
----
++++
 
 ## [Atmosphere](https://cyverse.org/atmosphere)
 
@@ -329,7 +312,7 @@ OpenScienceGrid Example
 
 - Linux environment (CentOS, Ubuntu)
 - Collaborate together online
-- Publically host custom images
+- Publicly host custom images
 
 +++
 
@@ -409,13 +392,11 @@ Done!
 
 +++
 
-<img src="assets/imagery/Discovery_white.png" height="200">
-
 Bring your own Docker Containers into the Discovery Environment
 
-<img src="https://f1000researchdata.s3.amazonaws.com/manuscripts/9614/e8fc9784-bed0-46bd-abc4-e070165a0c78_figure2.gif" height="400">
-
 [Devisetty et al. 2016](https://f1000research.com/articles/5-1442/v1)
+
+<img src="https://f1000researchdata.s3.amazonaws.com/manuscripts/9614/e8fc9784-bed0-46bd-abc4-e070165a0c78_figure2.gif" height="400">
 
 +++
 
