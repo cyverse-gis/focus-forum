@@ -242,8 +242,7 @@ Done!
 
 ---?image=assets/imagery/dockerhub_ubuntu_xfce.png
 
----?image=assets/imagery/metashape.png
-
+---?image=assets/imagery/metashape.jpg
 +++
 
 <span style="font-weight: bold; font-size: 150%; color:#F0FF00">Power User</span>
