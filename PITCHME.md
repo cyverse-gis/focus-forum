@@ -261,7 +261,11 @@ Done!
 
 +++
 
-![Video](https://youtu.be/yWXJU-Kqqyg)
+![Video](https://www.youtube.com/embed/yWXJU-Kqqyg)
+
++++
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yWXJU-Kqqyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 +++
 
@@ -273,9 +277,9 @@ Done!
 
 <img src="https://scitech.isi.edu/wordpress/wp-content/uploads/2016/06/pegasus-dark.png" height="200"> <img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2018/12/aj-models.png" height="200"> <img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2018/12/profile_1-220x150.jpg" height="200"> 
 
-<img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2017/05/ariella.dot_.png")
+<img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2017/05/ariella.dot_.png">
 
-3 million jobs (containers!), 7 million CPU hours. 1 PhD. 
+3 million jobs (containers) -> 7 million CPU hours -> 1 PhD. 
 
 ---
 
