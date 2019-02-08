@@ -239,9 +239,12 @@ Done!
 
 - Cannot afford to buy a $5,000 workstation <!-- .element: class="fragment" -->
 
-+++<img src="assets/imagery/dockerhub_ubuntu_xfce.png" width="200">
++++
 
-+++<img src="assets/imagery/guacamole.png" width="200">
+<img src="assets/imagery/dockerhub_ubuntu_xfce.png">
+
++++
+<img src="assets/imagery/guacamole.png">
 
 <span style="font-weight: bold; font-size: 150%; color:#F0FF00">Power User</span>
 
