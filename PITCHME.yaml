@@ -1,4 +1,4 @@
-logo: assets/imagery/cyverse_globe_white.png
+logo: [assets/imagery/cyverse_globe_white.png](http://cyverse.org)
 # background: assets/imagery/merged.png
 background-size: cover
 theme: black
