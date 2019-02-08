@@ -3,7 +3,7 @@
 <span style="font-weight: bold; font-size: 170%; color:#FFFF00">Going Places with Your Container(s)</span>
 
 February 8, 2019
-#### Tyson Lee Swetnam
+#### Tyson Lee Swetnam Ph.D.
 <img src="assets/imagery/cyverse_white.png" width="500">
 
 
