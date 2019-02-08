@@ -239,13 +239,10 @@ Done!
 
 - Cannot afford to buy a $5,000 workstation <!-- .element: class="fragment" -->
 
-+++
 
-<img src="assets/imagery/dockerhub_ubuntu_xfce.png">
+---?image=assets/imagery/dockerhub_ubuntu_xfce.png
 
-+++
-
-<img src="assets/imagery/guacamole_desktop.png">
+---?image=assets/imagery/metashape.png
 
 +++
 
