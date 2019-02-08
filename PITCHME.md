@@ -251,9 +251,7 @@ Done!
 
 <span style="font-weight: bold; font-size: 150%; color:#F0FF00">Power User</span>
 
-- Interest in scaling workflow beyond the laptop / desktop on to HPC and Cloud <!-- .element: class="fragment" -->
-
-- Need to move significant amounts of data around networks <!-- .element: class="fragment" -->
+- Interest in scaling workflow beyond the laptop / desktop onto HPC and Cloud <!-- .element: class="fragment" -->
 
 +++
 
@@ -265,13 +263,9 @@ Done!
 
 +++
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/yWXJU-Kqqyg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
-+++
-
 <span style="font-weight: bold; font-size: 150%; color:#FFAA00">Millions of Containers</span>
 
-- Leveraging containers in HTC environments for massively parallel computing <!-- .element: class="fragment" -->
+- Leveraging containers for massively parallel computing <!-- .element: class="fragment" -->
 
 +++
 
@@ -279,7 +273,7 @@ Done!
 
 <img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2017/05/ariella.dot_.png">
 
-3 million jobs (containers) -> 7 million CPU hours -> 1 PhD. 
+3 million jobs = 7 million CPU hours = 1 PhD 
 
 ---
 
