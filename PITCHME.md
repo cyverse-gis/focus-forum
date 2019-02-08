@@ -447,6 +447,16 @@ https://www.cyverse.org/foss
 
 ---
 
+## Acknowledgments
+
+Thank you David Godlove & Sylabs for the fortune telling cows.
+
+Thanks Julian Pistorius, Upendra Devisetty, and Nirav Merchant (CyVerse) for slide help.
+
+Thanks Mats Rynge (ISI) and OpenScienceGrid. 
+
++++
+
 <img src="assets/imagery/cyverse_white.png" width="700">
 
 <img src="assets/imagery/az.png" height="75"> 
