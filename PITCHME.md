@@ -185,7 +185,7 @@ From: ubuntu:18.04
 ```shell
 $ sudo singularity build cowsay.simg Singularity
 $ singularity run cowsay.simg
-$ singularity exec cowsay.simg fortune | cowsay | lolcat
+$ singularity exec cowsay.simg fortune
 $ singularity shell cowsay.simg
 $ fortune | cowsay | lolcat
 $ singularity run docker://tswetnam/cowsay:latest
@@ -195,7 +195,7 @@ Done!
 
 @[1](Use `sudo` to build the image with your Singularity file)
 @[2](Run new image)
-@[3](Execute the programs in the container)
+@[3](Execute a program in the container)
 @[4](Start a bash shell inside the container - note: you're inside the container now)
 @[5](Run the programs)
 @[6](Pull the Docker version of the container and run it with Singularity!)
