@@ -449,7 +449,7 @@ Thank you David Godlove & Sylabs for the fortune telling cows.
 
 Thanks Julian Pistorius, Upendra Devisetty, and Nirav Merchant (CyVerse) for slide help.
 
-Thanks Mats Rynge (ISI) and OpenScienceGrid. 
+Thanks Mats Rynge (ISI), XSEDE, & the OpenScienceGrid. 
 
 ---?image=assets/imagery/endslide.png
 
