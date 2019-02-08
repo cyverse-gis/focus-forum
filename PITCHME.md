@@ -22,11 +22,11 @@ twitter: tswetnam
 ### Today's Roadmap
 
 
-<span style="font-size: 80%; color:#FF0000">Review of two weeks ago: "Make Your Life (and Analyses) Easier with Containers" </span> <!-- .element: class="fragment" -->
+<span style="font-size: 80%; color:#F9FF33">Review of two weeks ago: "Make Your Life (and Analyses) Easier with Containers" </span> <!-- .element: class="fragment" -->
 
-<span style="font-size: 100%; color:#FF0000">Building your own container</span> <!-- .element: class="fragment" -->
+<span style="font-size: 100%; color:#58FF33">Building your own container</span> <!-- .element: class="fragment" -->
 
-<span style="font-size: 100%; color:#FF0000">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
+<span style="font-size: 100%; color:#58FF33">Have Container(s), Will travel </span> <!-- .element: class="fragment" -->
 
 ---
 
