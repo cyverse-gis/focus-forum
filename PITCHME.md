@@ -275,6 +275,8 @@ Done!
 
 3 million jobs = 7 million CPU hours = 1 PhD 
 
+[Read here about Ariella's work with OSG & Pegasus](https://pegasus.isi.edu/2018/12/10/pegasus-helped-ecology-and-evolutionary-biology-graduate-student-at-the-university-of-arizona-shed-light-on-human-population-history/) 
+
 ---
 
 
