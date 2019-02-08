@@ -455,6 +455,6 @@ Thanks Julian Pistorius, Upendra Devisetty, and Nirav Merchant (CyVerse) for sli
 
 Thanks Mats Rynge (ISI) and OpenScienceGrid. 
 
----<img src="assets/imagery/endslide.png"
+---?image=assets/imagery/endslide.png
 
 
