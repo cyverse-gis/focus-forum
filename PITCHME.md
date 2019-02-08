@@ -203,6 +203,10 @@ Done!
 
 ---
 
+# Any Questions before we move on?
+
+---
+
 # Lessons Learned in building containers
 
 +++
@@ -275,12 +279,11 @@ Done!
 
 ---
 
-
-# Working on CyVerse
+# Working with containers in CyVerse
 
 +++
 
-### CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_People & Research Objectives_</span>  <!-- .element: class="fragment" -->
+### Important: CyVerse is enabled by <span style="font-weight: bold; color: #c7232e">_People & Research Objectives_</span>  <!-- .element: class="fragment" -->
 
 ### Our success depends on users innovating within an ecosystem of interoperability  <!-- .element: class="fragment" -->
 
@@ -292,7 +295,7 @@ Done!
 
 +++
 
-### When you begin using CyVerse <span style="font-weight: bold; color: #3685E3">WE</span> work with you to identify your tools, workflows, and datasets
+### In CyVerse <span style="font-weight: bold; color: #3685E3">we work with you</span> to identify the tools, workflows, and datasets you need.
 
 <img src="http://insidethegem.com/wp-content/uploads/organic-logo.png" height="150"> <img src="http://cstaab.com/wp-content/uploads/cpp_java_python.png" height="150"> <img src="https://pbs.twimg.com/profile_images/662507863516905472/7piKPHHv_400x400.jpg" height="150"> 
 
