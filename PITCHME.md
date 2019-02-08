@@ -135,18 +135,17 @@ Done!
 
 ## Containers for HPC
 
-[Singularity](http://singularity.lbl.gov)
-
 <img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200">
+
+[Singularity](http://singularity.lbl.gov)
 
 +++
 
-- Shares the host environment
-  - See linux host file system
-  - add mounted volumes
-- Your same username and `root` privileges inside container
-  - install your own software on HPC!
-- Build your own images or use an existing Docker container
+<img src="https://www.sylabs.io/wp-content/uploads/2018/10/s-icon.png" height="200">
+
+- Shares the host environment and file system
+- Same username & `root` privilege inside container
+- Build your own image or use an existing Docker container
 
 +++
 
@@ -204,21 +203,19 @@ Done!
 
 ---
 
-# Lessons Learned
+# Lessons Learned in building containers
 
 +++
 
 [Alan Perlis, 1982 Epigrams on Programming](https://web.archive.org/web/19990117034445/http://www-pu.informatik.uni-tuebingen.de/users/klaeren/epigrams.html)
 
-**54. Beware of the Turing Tarpit** 
-
-<span style="font-weight: bold; font-size: 80%; color:#FF0000">_in which everything is possible but nothing of interest is easy._</span> 
+**54. Beware of the Turing Tarpit in which everything is possible but nothing of interest is easy.**
 
 <img src="https://img00.deviantart.net/58af/i/2012/093/a/c/la_brea_tar_pits_by_felipenn-d4uxy05.jpg" width="400">
 
 +++
 
-## Building the "best" containers takes time
+## Building the "best" containers often takes time and experience
 
 <img src="https://consequenceofsound.files.wordpress.com/2016/04/screen-shot-2016-04-08-at-10-33-51-am.png" width="500">
 
@@ -236,19 +233,15 @@ Done!
 
 <span style="font-weight: bold; font-size: 150%; color:#FF0000">Graphical User</span>
 
-- Works in Graphic User Interfaces (GUI) & Integrated Development Environment (IDE) tools <!-- .element: class="fragment" -->
+- Works in Graphic User Interfaces (GUI) & with Integrated Development Environments (IDE) <!-- .element: class="fragment" -->
   
 - Needs more computing power than their laptop <!-- .element: class="fragment" -->
 
 - Cannot afford to buy a $5,000 workstation <!-- .element: class="fragment" -->
 
-+++
++++<img src="assets/imagery/dockerhub_ubuntu_xfce.png" width="200">
 
-<span style="font-weight: bold; font-size: 150%; color:#FF0000">Graphical User</span>
-
-Ubuntu Desktop + NVIDIA
-
-+++
++++<img src="assets/imagery/guacamole.png" width="200">
 
 <span style="font-weight: bold; font-size: 150%; color:#F0FF00">Power User</span>
 
