@@ -244,28 +244,38 @@ Done!
 <img src="assets/imagery/dockerhub_ubuntu_xfce.png">
 
 +++
-<img src="assets/imagery/guacamole.png">
+
+<img src="assets/imagery/guacamole_desktop.png">
+
++++
 
 <span style="font-weight: bold; font-size: 150%; color:#F0FF00">Power User</span>
 
-- Interest in scaling workflows beyond the laptop / desktop on to HPC and Cloud <!-- .element: class="fragment" -->
+- Interest in scaling workflow beyond the laptop / desktop on to HPC and Cloud <!-- .element: class="fragment" -->
 
 - Need to move significant amounts of data around networks <!-- .element: class="fragment" -->
 
 +++
 
-Makeflow Example
+<img src="assets/imagery/eemt_singularity.png.png">
 
 +++
 
-<span style="font-weight: bold; font-size: 150%; color:#FFAA00">Small Research Group</span>
-
-- Interest in integrating global and national datasets across HPC environments for massively parallel computing <!-- .element: class="fragment" -->
+![Video](https://youtu.be/yWXJU-Kqqyg)
 
 +++
 
-OpenScienceGrid Example
+<span style="font-weight: bold; font-size: 150%; color:#FFAA00">Millions of Containers</span>
 
+- Leveraging containers in HTC environments for massively parallel computing <!-- .element: class="fragment" -->
+
++++
+
+<img src="https://scitech.isi.edu/wordpress/wp-content/uploads/2016/06/pegasus-dark.png" height="200"> <img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2018/12/aj-models.png" height="200"> <img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2018/12/profile_1-220x150.jpg" height="200"> 
+
+<img src="https://pegasus.isi.edu/wordpress/wp-content/uploads/2017/05/ariella.dot_.png")
+
+3 million jobs (containers!), 7 million CPU hours. 1 PhD. 
 
 ---
 
