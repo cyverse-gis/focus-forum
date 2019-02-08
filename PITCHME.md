@@ -455,14 +455,6 @@ Thanks Julian Pistorius, Upendra Devisetty, and Nirav Merchant (CyVerse) for sli
 
 Thanks Mats Rynge (ISI) and OpenScienceGrid. 
 
-+++
+---<img src="assets/imagery/endslide.png"
 
-<img src="assets/imagery/cyverse_white.png" width="700">
 
-<img src="assets/imagery/az.png" height="75"> 
-<img src="assets/imagery/tacc.png" height="75"> 
-<img src="assets/imagery/cshl.png" height="75"> 
-
-<img src="assets/imagery/nsf_logo.png" height="150"> 
-
-##### Grants No. DBI-0735191, DBI-1265383, & DBI-1743442.
